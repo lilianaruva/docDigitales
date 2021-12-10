@@ -1,0 +1,43 @@
+.container-PreferencesNav {
+    display: flex;
+    flex-direction: column;
+}
+
+.tab-PreferencesNav {
+    height: 43px;
+    width: 100%;
+    margin: 22px 0;
+    padding: 12px 143px 12px 32px;
+    border-radius: 21.5px;
+}
+.tab-PreferencesNav:hover {
+    background-color: #c0e2ed;
+}
+.content-tab-PreferencesNav{
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #444851;
+}
+
+.fade {
+    transition: opacity .15s linear;
+}
+
+/*
+
+.tab-content2>.tab-pane2 {
+    border-top: 1px solid red;
+    display: none;
+}
+
+.tab-content2>.active2 {
+    border-top: 1px solid blue;
+    display: flex;
+}
+
+*/
