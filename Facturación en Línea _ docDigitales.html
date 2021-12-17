@@ -1292,14 +1292,7 @@
                   >Impuestos</a
                 >
               </li>
-              <li class="nav-item">
-                <a
-                  href="https://sistema.docdigitales.com/admin/empresas#tabs-config-logo"
-                  data-toggle="tab"
-                  class="btn_submenu_nuevo btn_submenu_config"
-                  >Logo</a
-                >
-              </li>
+              
               <li class="nav-item">
                 <a
                   href="https://sistema.docdigitales.com/admin/empresas#tabs-config-factura"
@@ -1316,14 +1309,7 @@
                   >Certificados</a
                 >
               </li>
-              <li class="nav-item">
-                <a
-                  href="https://sistema.docdigitales.com/admin/empresas#tabs-config-correos"
-                  data-toggle="tab"
-                  class="btn_submenu_nuevo btn_submenu_config"
-                  >Correo</a
-                >
-              </li>
+              
               <li>
                 <a
                   id="config_adminsat"
@@ -3010,225 +2996,7 @@
             </div>
             <!-- Informacion de la Autofacturacion -->
             <!-- Informacion del Logo -->
-            <div class="tab-pane" id="tabs-config-logo">
-              <div class="container-fluid">
-                <div class="row">
-                  <div class="col-md-12">
-                    <div class="row">
-                      <div class="col-md-12 text-center">
-                        <h3 class="configuracion_h3">Logotipo</h3>
-                      </div>
-                    </div>
-                    <br />
-                    <!-- Imagen de logo Empresa -->
-                    <div class="div-logo">
-                      <div class="row">
-                        <div class="col-md-1"></div>
-                        <div class="col-md-4">
-                          <div id="div-logo-empresa" class="text-center">
-                            <img
-                              src="./Facturación en Línea _ docDigitales_files/EmpresaLogo20110318.bmp"
-                              class="img-logo"
-                            />
-                            <button
-                              id="btn-eliminar-img-logo"
-                              class="btn_accion_ter"
-                            >
-                              Eliminar imagen
-                            </button>
-                            <div class="img-borde-logo hidden">
-                              <p>Favor de subir su logo.</p>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="col-md-6">
-                          <form
-                            id="forma-importar-logo-empresa"
-                            enctype="multipart/form-data"
-                            action="https://sistema.docdigitales.com/admin/empresas/importar/imagenes"
-                            accept-charset="UTF-8"
-                            method="post"
-                          >
-                            <input name="utf8" type="hidden" value="✓" /><input
-                              type="hidden"
-                              name="authenticity_token"
-                              value="9SHyAnNJuO+8oBDNeOI8vHj7vv5b8z3OqKtr6qZawztvzA9wTETz+BrXU0cur6FQP0kMV5pvaa1jWYKliuwYCw=="
-                            />
-                            <div class="row">
-                              <div class="col-md-12">
-                                <div class="control-group text-center">
-                                  <label for="" class="col-md-12 control-label"
-                                    ><b>Sube el logotipo de tu empresa.</b>
-                                    <br />Las imágenes se ajustan
-                                    automaticamente a 200 x 200 px. <br /><br />
-                                  </label>
-                                </div>
-
-                                <div class="control-group text-center">
-                                  <div class="col-md-12">
-                                    <input
-                                      type="hidden"
-                                      name="hdn_imagen"
-                                      id="hdn_imagen"
-                                      value="logo"
-                                    />
-                                    <div class="col-md-12">
-                                      <input
-                                        type="file"
-                                        name="file"
-                                        id="file"
-                                      />
-                                    </div>
-                                    <br />
-                                    <input
-                                      type="submit"
-                                      name="commit"
-                                      value="Subir imagen"
-                                      class="btn_accion_prim file-logo"
-                                      data-disable-with="Subir imagen"
-                                    />
-                                  </div>
-                                </div>
-
-                                <div class="control-group text-center">
-                                  <label for="" class="col-md-12 control-label"
-                                    ><b
-                                      >Formatos recomendados: <br />JPG, JPEG,
-                                      GIF, PNG, BMP</b
-                                    ></label
-                                  >
-                                </div>
-                                <br />
-                              </div>
-                            </div>
-                          </form>
-                        </div>
-                      </div>
-                    </div>
-                    <br />
-                    <br />
-                    <br />
-                    <br />
-                    <!-- Imagen de logo RFC -->
-                    <div class="div-rfc hidden">
-                      <div class="row">
-                        <div class="col-md-2 col-md-offset-1">
-                          <h4 class="display-inline">RFC</h4>
-                          <span
-                            class="
-                              glyphicon glyphicon-question-sign
-                              question-logos
-                            "
-                            title="Las imágenes se ajustan automaticamente a 300x200 px"
-                          ></span>
-                        </div>
-                        <div class="col-md-4">
-                          <form
-                            id="forma-importar-logo-rfc"
-                            enctype="multipart/form-data"
-                            action="https://sistema.docdigitales.com/admin/empresas/importar/imagenes"
-                            accept-charset="UTF-8"
-                            method="post"
-                          >
-                            <input name="utf8" type="hidden" value="✓" /><input
-                              type="hidden"
-                              name="authenticity_token"
-                              value="9SHyAnNJuO+8oBDNeOI8vHj7vv5b8z3OqKtr6qZawztvzA9wTETz+BrXU0cur6FQP0kMV5pvaa1jWYKliuwYCw=="
-                            />
-                            <div class="row">
-                              <div class="col-md-12">
-                                <div class="control-group">
-                                  <label for="" class="col-md-11 control-label"
-                                    >Formatos recomendados</label
-                                  >
-                                  <label for="" class="col-md-11 control-label"
-                                    >JPG, JPEG, GIF, PNG, BMP</label
-                                  >
-                                  <input
-                                    type="hidden"
-                                    name="hdn_imagen"
-                                    id="hdn_imagen"
-                                    value="rfc"
-                                  />
-                                  <div class="col-md-11">
-                                    <input type="file" name="file" id="file" />
-                                  </div>
-                                </div>
-                                <br />
-                                <div class="control-group">
-                                  <div class="col-md-12">
-                                    <br />
-                                    <input
-                                      type="submit"
-                                      name="commit"
-                                      value="Subir imagen"
-                                      class="
-                                        btn_accion_prim
-                                        mt-10
-                                        file-logo-rfc
-                                      "
-                                      data-disable-with="Subir imagen"
-                                    />
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </form>
-                        </div>
-                        <div class="col-md-4">
-                          <div id="div-logo-rfc" class="text-center">
-                            <img
-                              src="./Facturación en Línea _ docDigitales_files/EmpresaRFCImagen21030728.jpg"
-                              class="img-rfc"
-                            />
-                            <button
-                              id="btn-eliminar-img-rfc"
-                              class="btn btn-link btn-mini"
-                            >
-                              Eliminar imagen
-                            </button>
-                            <div class="img-borde-rfc hidden">
-                              <p>Favor de subir su cédula.</p>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-
-                    <!-- Template para agregar el logo de la empresa -->
-                    <script
-                      id="tmpl_logo_emp"
-                      type="text/x-handlebars-template"
-                    >
-                      <img src="{{imagen_url}}" class="img-logo" />
-                    </script>
-
-                    <!-- Template para agregar logo RFC -->
-                    <script
-                      id="tmpl_logo_rfc"
-                      type="text/x-handlebars-template"
-                    >
-                      <img src="{{imagen_url}}" class="img-rfc" />
-                    </script>
-
-                    <!-- Template de la tabla Series para agregar un nuevo row. -->
-                    <script
-                      id="tmpl_serie_row"
-                      type="text/x-handlebars-template"
-                    >
-                      <tr>
-                        <td>{{serie}}</td>
-                        <td>{{folio}}</td>
-                        <td><button
-                            class="btn_sm btn_accion_sec btn-mini btn-eliminar-serie"
-                            data-target="{{id}}"
-                          >Eliminar</button></td>
-                      </tr>
-                    </script>
-                  </div>
-                </div>
-              </div>
-            </div>
+            
             <!-- Informacion del Factura -->
             <div class="tab-pane" id="tabs-config-factura">
               <div class="container-fluid">
@@ -21203,772 +20971,7 @@
               </div>
             </div>
             <!-- Configuracion de Correos -->
-            <div class="tab-pane" id="tabs-config-correos">
-              <div class="container-fluid">
-                <div class="row">
-                  <div class="col-md-12">
-                    <div class="row">
-                      <div class="col-md-12 text-center">
-                        <h3 class="configuracion_h3">
-                          Correo para tus Clientes
-                        </h3>
-                      </div>
-                    </div>
-                    <br />
-
-                    <div class="row">
-                      <div class="col-md-6 col-md-offset-3">
-                        <form
-                          class="form-empresas-correos bv-form form-horizontal"
-                          id="new_empresas_correos"
-                          action="https://sistema.docdigitales.com/admin/empresas/191/correos"
-                          accept-charset="UTF-8"
-                          method="post"
-                          novalidate="novalidate"
-                        >
-                          <button
-                            type="submit"
-                            class="bv-hidden-submit"
-                            style="display: none; width: 0px; height: 0px"
-                          ></button
-                          ><input name="utf8" type="hidden" value="✓" /><input
-                            type="hidden"
-                            name="authenticity_token"
-                            value="9SHyAnNJuO+8oBDNeOI8vHj7vv5b8z3OqKtr6qZawztvzA9wTETz+BrXU0cur6FQP0kMV5pvaa1jWYKliuwYCw=="
-                          />
-                          <div class="form-group">
-                            <div class="row">
-                              <div class="control-group">
-                                <label
-                                  class="col-md-4 control-label"
-                                  for="nombre"
-                                  >Remitente:</label
-                                >
-                                <div class="col-md-8">
-                                  <input
-                                    class="form-control input_gris input-xlarge"
-                                    type="text"
-                                    name="empresas_correos[nombre]"
-                                    id="empresas_correos_nombre"
-                                  />
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-
-                          <div class="form-group">
-                            <div class="row">
-                              <div class="control-group">
-                                <label
-                                  class="col-md-4 control-label"
-                                  for="correo"
-                                  >Correo Remitente:</label
-                                >
-                                <div class="col-md-8">
-                                  <input
-                                    class="form-control input_gris input-xlarge"
-                                    type="text"
-                                    name="empresas_correos[correo]"
-                                    id="empresas_correos_correo"
-                                    data-bv-field="empresa_correo_remitente"
-                                  />
-                                  <small
-                                    class="help-block"
-                                    data-bv-validator="emailAddress"
-                                    data-bv-for="empresa_correo_remitente"
-                                    data-bv-result="NOT_VALIDATED"
-                                    style="display: none"
-                                    >* Favor de escribir un correo
-                                    electronico.</small
-                                  >
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-
-                          <div class="form-group">
-                            <div class="row">
-                              <div class="control-group">
-                                <label
-                                  class="col-md-4 control-label"
-                                  for="correo"
-                                  >Nueva Factura:</label
-                                >
-                                <div class="col-md-8">
-                                  <button
-                                    id="nueva-factura-link"
-                                    type="button"
-                                    class="btn_accion_ter"
-                                    data-tipo="1"
-                                  >
-                                    Editar
-                                  </button>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-
-                          <div class="form-group">
-                            <div class="row">
-                              <div class="control-group">
-                                <label
-                                  class="col-md-4 control-label"
-                                  for="correo"
-                                  >Nueva Recepción:</label
-                                >
-                                <div class="col-md-8">
-                                  <button
-                                    id="nueva-recepcion-link"
-                                    type="button"
-                                    class="btn_accion_ter"
-                                    data-tipo="5"
-                                  >
-                                    Editar
-                                  </button>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-
-                          <div class="form-group">
-                            <div class="row">
-                              <div class="control-group">
-                                <label
-                                  class="col-md-4 control-label"
-                                  for="correo"
-                                  >Nueva Cotización:</label
-                                >
-                                <div class="col-md-8">
-                                  <button
-                                    id="nueva-cotizacion-link"
-                                    type="button"
-                                    class="btn_accion_ter"
-                                    data-tipo="2"
-                                  >
-                                    Editar
-                                  </button>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-
-                          <div class="form-group">
-                            <div class="row">
-                              <div class="control-group">
-                                <label
-                                  class="
-                                    col-md-4
-                                    control-label
-                                    no-padding-right
-                                  "
-                                  for="correo"
-                                  >Nuevo Usuario Creado:</label
-                                >
-                                <div class="col-md-8">
-                                  <button
-                                    id="nuevo-usuario-link"
-                                    type="button"
-                                    class="btn_accion_ter"
-                                    data-tipo="3"
-                                  >
-                                    Editar
-                                  </button>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-
-                          <div class="form-group">
-                            <div class="row">
-                              <div class="control-group">
-                                <label
-                                  class="col-md-4 control-label"
-                                  for="correo"
-                                  >Nuevo Staff Creado:</label
-                                >
-                                <div class="col-md-8">
-                                  <button
-                                    id="nuevo-staff-link"
-                                    type="button"
-                                    class="btn_accion_ter"
-                                    data-tipo="4"
-                                  >
-                                    Editar
-                                  </button>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-
-                          <div class="form-group">
-                            <div class="row">
-                              <div class="control-group">
-                                <label class="col-md-4 control-label"></label>
-                                <label class="col-md-8 text-center" for="firma"
-                                  >Firma de Todos los Correos</label
-                                >
-                              </div>
-                            </div>
-                          </div>
-
-                          <div class="form-group">
-                            <div class="row">
-                              <div class="control-group">
-                                <label class="col-md-4 control-label"></label>
-                                <div class="col-md-8">
-                                  <textarea
-                                    name="firma"
-                                    id="firma"
-                                    class="form-control textarea_gris"
-                                    rows="4"
-                                  >
-El importe total de esta factura deberá ser pagado en la misma denominación con la que fue facturada.</textarea
-                                  >
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-
-                          <div class="row">
-                            <div class="col-md-8 col-md-offset-4 text-center">
-                              <div class="control-group">
-                                <div class="controls">
-                                  <input
-                                    type="submit"
-                                    name="commit"
-                                    value="Guardar"
-                                    id="btn-guardar-preferencias-correo"
-                                    class="btn_accion_prim"
-                                    style="margin-top: 10px"
-                                    data-disable-with="Guardar"
-                                  />
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </form>
-                        <!-- Modals -->
-                        <div class="row">
-                          <div class="col-md-12">
-                            <div
-                              id="dd-configuracion-correo-2-modal"
-                              class="modal fade"
-                              tabindex="-1"
-                              role="dialog"
-                              aria-labelledby="myModalLabel"
-                              aria-hidden="true"
-                            >
-                              <div class="modal-dialog">
-                                <div class="modal-content" style="width: 750px">
-                                  <div class="modal-header">
-                                    <h4 id="modal-header-label">
-                                      <div id="texto_encabezado"></div>
-                                    </h4>
-                                  </div>
-                                  <div class="modal-body">
-                                    <div class="tabbable">
-                                      <div class="tab-content form-horizontal">
-                                        <div
-                                          class="tab-pane active"
-                                          id="empresa"
-                                        >
-                                          <div class="form-group">
-                                            <div class="col-md-7">
-                                              <label
-                                                class="
-                                                  col-md-2
-                                                  control-label
-                                                  no-padding-left
-                                                "
-                                                >Subject:</label
-                                              >
-                                              <div
-                                                id="correo_subject"
-                                                contenteditable="true"
-                                                class="form-control input_gris"
-                                              ></div>
-                                            </div>
-                                          </div>
-
-                                          <div class="form-group">
-                                            <div class="col-md-12">
-                                              <label
-                                                class="
-                                                  col-md-2
-                                                  control-label
-                                                  no-padding-left
-                                                "
-                                                >Mensaje:</label
-                                              >
-                                              <div
-                                                id="correo_mensaje"
-                                                contenteditable="true"
-                                                class="
-                                                  form-control
-                                                  textarea_gris
-                                                "
-                                                style="height: 200px"
-                                              ></div>
-                                            </div>
-                                          </div>
-
-                                          <!--dropdown variables-->
-                                          <div class="form-group">
-                                            <div class="col-md-10">
-                                              <div class="col-md-4 no-padding">
-                                                <label
-                                                  class="
-                                                    col-md-12
-                                                    control-label
-                                                    no-padding
-                                                  "
-                                                  for="sucursal_default"
-                                                  >Insertar Variable:</label
-                                                >
-                                                <input
-                                                  type="hidden"
-                                                  name="hdn_vars_tipo"
-                                                  id="hdn_vars_tipo"
-                                                  value=""
-                                                />
-                                                <select
-                                                  name="vars_factura_list"
-                                                  id="vars_factura_list"
-                                                  class="
-                                                    form-control
-                                                    input_gris
-                                                    hidden
-                                                  "
-                                                >
-                                                  <option
-                                                    value=""
-                                                    label=" "
-                                                  ></option>
-                                                  <option value="1">
-                                                    Numero de Factura
-                                                  </option>
-                                                  <option value="3">
-                                                    Total de la Factura
-                                                  </option>
-                                                  <option value="4">
-                                                    Nombre Empresa
-                                                  </option>
-                                                  <option value="5">
-                                                    Nombre Cliente
-                                                  </option>
-                                                  <option value="6">
-                                                    Nombre Contacto
-                                                  </option>
-                                                  <option value="25">
-                                                    Recepciones de Pago
-                                                  </option>
-                                                </select>
-                                                <select
-                                                  name="vars_cotizacion_list"
-                                                  id="vars_cotizacion_list"
-                                                  class="
-                                                    form-control
-                                                    input_gris
-                                                    hidden
-                                                  "
-                                                >
-                                                  <option
-                                                    value=""
-                                                    label=" "
-                                                  ></option>
-                                                  <option value="7">
-                                                    Numero de Cotizacion
-                                                  </option>
-                                                  <option value="9">
-                                                    Total de Cotizacion
-                                                  </option>
-                                                  <option value="10">
-                                                    Nombre Empresa
-                                                  </option>
-                                                  <option value="11">
-                                                    Nombre Cliente
-                                                  </option>
-                                                  <option value="12">
-                                                    Nombre Contacto
-                                                  </option>
-                                                </select>
-                                                <select
-                                                  name="vars_usuario_list"
-                                                  id="vars_usuario_list"
-                                                  class="
-                                                    form-control
-                                                    input_gris
-                                                    hidden
-                                                  "
-                                                >
-                                                  <option
-                                                    value=""
-                                                    label=" "
-                                                  ></option>
-                                                  <option value="13">
-                                                    Link de Acceso
-                                                  </option>
-                                                  <option value="14">
-                                                    Nombre Empresa
-                                                  </option>
-                                                  <option value="15">
-                                                    Nombre Cliente
-                                                  </option>
-                                                  <option value="16">
-                                                    Nombre Contacto
-                                                  </option>
-                                                  <option value="17">
-                                                    Constraseña
-                                                  </option>
-                                                  <option value="24">
-                                                    Usuario
-                                                  </option>
-                                                </select>
-                                                <select
-                                                  name="vars_staff_list"
-                                                  id="vars_staff_list"
-                                                  class="
-                                                    form-control
-                                                    input_gris
-                                                    hidden
-                                                  "
-                                                >
-                                                  <option
-                                                    value=""
-                                                    label=" "
-                                                  ></option>
-                                                  <option value="18">
-                                                    Link de Acceso
-                                                  </option>
-                                                  <option value="19">
-                                                    Nombre Empresa
-                                                  </option>
-                                                  <option value="20">
-                                                    Nombre Usuario Staff
-                                                  </option>
-                                                  <option value="22">
-                                                    Usuario
-                                                  </option>
-                                                  <option value="23">
-                                                    Contraseña
-                                                  </option>
-                                                </select>
-                                                <select
-                                                  name="vars_recepcion_list"
-                                                  id="vars_recepcion_list"
-                                                  class="
-                                                    form-control
-                                                    input_gris
-                                                    hidden
-                                                  "
-                                                >
-                                                  <option
-                                                    value=""
-                                                    label=" "
-                                                  ></option>
-                                                  <option value="26">
-                                                    Nombre Empresa
-                                                  </option>
-                                                  <option value="27">
-                                                    Total de la Recepcion
-                                                  </option>
-                                                  <option value="28">
-                                                    Nombre Cliente
-                                                  </option>
-                                                  <option value="29">
-                                                    Numero de Recepcion
-                                                  </option>
-                                                  <option value="30">
-                                                    CFDI Relacionados
-                                                  </option>
-                                                </select>
-                                                <button
-                                                  id="btn-regresar-default"
-                                                  class="
-                                                    btn_accion_ter
-                                                    no-padding
-                                                  "
-                                                  aria-hidden="true"
-                                                >
-                                                  Regresar a predeterminado
-                                                </button>
-                                              </div>
-                                              <div class="col-md-6">
-                                                <div><br /></div>
-                                                <button
-                                                  id="btn-inserta-variable"
-                                                  class="btn_accion_ter"
-                                                  aria-hidden="true"
-                                                >
-                                                  Insertar
-                                                </button>
-                                              </div>
-                                            </div>
-                                          </div>
-
-                                          <!--botones-->
-                                          <div class="control-group">
-                                            <hr />
-                                            <div class="row">
-                                              <div class="col-md-12 text-right">
-                                                <button
-                                                  id="btn-guardar-configuracion-correo"
-                                                  class="btn_accion_prim mt-0"
-                                                  aria-hidden="true"
-                                                >
-                                                  Guardar
-                                                </button>
-                                                <button
-                                                  id="btn-preview-configuracion-correo"
-                                                  class="btn_accion_prim mt-0"
-                                                  aria-hidden="true"
-                                                  data-tipo=""
-                                                >
-                                                  Vista Previa
-                                                </button>
-                                                <button
-                                                  class="
-                                                    btn_cancelar_modal
-                                                    btn_accion_sec
-                                                  "
-                                                  data-dismiss="modal"
-                                                  aria-hidden="true"
-                                                >
-                                                  Cancelar
-                                                </button>
-                                              </div>
-                                            </div>
-                                          </div>
-                                        </div>
-                                      </div>
-                                    </div>
-                                  </div>
-                                  <div class="modal-footer"></div>
-                                </div>
-                              </div>
-                            </div>
-
-                            <!-- Modals -->
-                            <div class="row">
-                              <div class="col-md-12">
-                                <!-- Modal -->
-                                <div
-                                  id="dd-modal"
-                                  class="modal fade"
-                                  tabindex="-1"
-                                  role="dialog"
-                                  aria-labelledby="myModalLabel"
-                                  aria-hidden="true"
-                                >
-                                  <div class="modal-dialog">
-                                    <div class="modal-content">
-                                      <div class="modal-header">
-                                        <button
-                                          type="button"
-                                          class="close"
-                                          data-dismiss="modal"
-                                        >
-                                          <span aria-hidden="true">×</span
-                                          ><span class="sr-only">Close</span>
-                                        </button>
-                                        <h4
-                                          class="modal-title"
-                                          id="myModalLabel"
-                                        ></h4>
-                                      </div>
-                                      <div
-                                        class="modal-body"
-                                        style="padding-top: 30px"
-                                      ></div>
-                                      <div class="modal-footer">
-                                        <button
-                                          type="button"
-                                          class="btn btn-default"
-                                          data-dismiss="modal"
-                                        >
-                                          Cerrar
-                                        </button>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-
-                                <!-- Informar -->
-                                <div
-                                  id="dd-inform-modal"
-                                  class="modal fade"
-                                  tabindex="-1"
-                                  role="dialog"
-                                  aria-labelledby="myModalLabel"
-                                  aria-hidden="true"
-                                >
-                                  <div class="modal-dialog">
-                                    <div class="modal-content">
-                                      <div class="modal-header">
-                                        <button
-                                          type="button"
-                                          class="close"
-                                          data-dismiss="modal"
-                                        >
-                                          <span aria-hidden="true">×</span>
-                                          <span class="sr-only">Close</span>
-                                        </button>
-                                        <h4
-                                          class="modal-title"
-                                          id="myModalLabel"
-                                        ></h4>
-                                      </div>
-                                      <div class="modal-body"></div>
-                                      <div class="modal-footer">
-                                        <button
-                                          type="button"
-                                          class="btn btn-default"
-                                          data-dismiss="modal"
-                                        >
-                                          Cerrar
-                                        </button>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-
-                                <!-- Modal de Confirmacion -->
-                                <div
-                                  id="dd-confirm-modal"
-                                  class="modal fade"
-                                  tabindex="-1"
-                                  role="dialog"
-                                  aria-labelledby="myModalLabel"
-                                  aria-hidden="true"
-                                >
-                                  <div class="modal-dialog">
-                                    <div class="modal-content">
-                                      <div class="modal-header">
-                                        <button
-                                          type="button"
-                                          class="close"
-                                          data-dismiss="modal"
-                                        >
-                                          <span aria-hidden="true">×</span
-                                          ><span class="sr-only">Close</span>
-                                        </button>
-                                        <h4
-                                          class="modal-title"
-                                          id="myModalLabel"
-                                        ></h4>
-                                      </div>
-                                      <div
-                                        class="modal-body-v"
-                                        style="padding: 15px"
-                                      ></div>
-                                      <div class="modal-footer">
-                                        <button
-                                          id="btn-confirm"
-                                          class="btn_accion_prim mt-0"
-                                          data-dismiss="modal"
-                                          aria-hidden="true"
-                                        >
-                                          Aceptar
-                                        </button>
-                                        <button
-                                          id="btn-cancel-action"
-                                          type="button"
-                                          class="btn_accion_sec no-bgc"
-                                          data-dismiss="modal"
-                                        >
-                                          Cancelar
-                                        </button>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-
-                                <!-- Modal de "Cargando" -->
-                                <div
-                                  id="dd-loading-modal"
-                                  class="modal fade"
-                                  tabindex="-1"
-                                  role="dialog"
-                                  aria-labelledby="myModalLabel"
-                                  aria-hidden="true"
-                                >
-                                  <div class="modal-dialog">
-                                    <div class="modal-content">
-                                      <div class="modal-header">
-                                        <h3
-                                          id="modal-loading-header-label"
-                                        ></h3>
-                                      </div>
-                                      <div class="modal-body">
-                                        <div id="modal-body-text"></div>
-                                        <br />
-                                        <div class="progress">
-                                          <div
-                                            class="
-                                              progress-bar
-                                              progress-bar-info
-                                              progress-bar-striped
-                                              active
-                                            "
-                                            role="progressbar"
-                                            aria-valuenow="100"
-                                            aria-valuemin="0"
-                                            aria-valuemax="100"
-                                            style="width: 100%"
-                                          ></div>
-                                          <div
-                                            class="
-                                              progress-bar
-                                              progress-bar-danger
-                                              progress-bar-striped
-                                              hidden
-                                            "
-                                            role="progressbar"
-                                            aria-valuenow="100"
-                                            aria-valuemin="0"
-                                            aria-valuemax="100"
-                                            style="width: 100%"
-                                          ></div>
-                                        </div>
-                                      </div>
-                                      <div
-                                        class="modal-footer hidden"
-                                        id="dd-loading-modal-footer"
-                                      >
-                                        <button
-                                          type="button"
-                                          id="btn-sugerir-agregar-tarjeta"
-                                          style="display: none"
-                                          class="btn_accion_sec"
-                                        >
-                                          Agregar Tarjeta
-                                        </button>
-                                        <button
-                                          type="button"
-                                          class="btn_accion_ter"
-                                          data-dismiss="modal"
-                                        >
-                                          Cerrar
-                                        </button>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <script type="text/javascript">
-                      $(function () {
-                        empresas_correos_index();
-                      });
-                    </script>
-                  </div>
-                </div>
-              </div>
-            </div>
+           
             <!-- Configuracion de Adminsat -->
             <div class="tab-pane" id="tabs-admin-sat">
               <div class="container-fluid">
@@ -22245,63 +21248,28 @@ $(document).ready(function(){
 });
 </!--script-->
             <div class="tab-pane" id="tabs-config-preferencias">
-              <div class="container-fluid">
-                <div class="row">
-                  <div class="col-md-12">
-                    <div class="container-fluid">
-                      <div class="row">
-                        <div class="col-md-3">
-                          <div class="container-PreferencesNav">
-                            <nav>
-                              <ul id="myTab">
-                                <li class="tab-PreferencesNav">
-                                  <a
-                                    class="content-tab-PreferencesNav"
-                                    data-toggle="tab"
-                                    href="https://sistema.docdigitales.com/admin/empresas#tabs-config-preferencias#preferenciasSection"
-                                    >Preferencias</a
-                                  >
-                                </li>
-                                <li class="tab-PreferencesNav">
-                                  <a
-                                    class="content-tab-PreferencesNav"
-                                    data-toggle="tab"
-                                    href="https://sistema.docdigitales.com/admin/empresas#tabs-config-preferencias#correoSection"
-                                    >Correo</a
-                                  >
-                                </li>
-                                <li class="tab-PreferencesNav">
-                                  <a
-                                    class="content-tab-PreferencesNav"
-                                    data-toggle="tab"
-                                    href="https://sistema.docdigitales.com/admin/empresas#tabs-config-preferencias#logoSection"
-                                    >Logo</a
-                                  >
-                                </li>
-                                <li class="tab-PreferencesNav">
-                                  <a
-                                    class="content-tab-PreferencesNav"
-                                    data-toggle="tab"
-                                    href="https://sistema.docdigitales.com/admin/empresas#tabs-config-preferencias#pagosEnLineaSection"
-                                    >Pagos en Linea</a
-                                  >
-                                </li>
-                                <li class="tab-PreferencesNav">
-                                  <a
-                                    class="content-tab-PreferencesNav"
-                                    data-toggle="tab"
-                                    href="https://sistema.docdigitales.com/admin/empresas#tabs-config-preferencias#notificacionesSection"
-                                    >Notificaciones</a
-                                  >
-                                </li>
-                              </ul>
-                            </nav>
-                          </div>
-                        </div>
-                        <div class="col-md-8 col-md-offset-1">
-                          <div
-                            id="preferenciasSection"
-                            class="tab-pane fade show active"
+
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-12">
+      <div class="tab">
+        <button
+          class="tablinks"
+          onclick="openTab(event, 'PreferenciasT')"
+          id="defaultOpen"
+        >
+          Preferencias
+        </button>
+        <button class="tablinks" onclick="openTab(event, 'Correo')">Correo</button>
+        <button class="tablinks" onclick="openTab(event, 'Logo')">Logo</button>
+        <button class="tablinks" onclick="openTab(event, 'PagosEnLinea')">Pagos en Linea</button>
+        <button class="tablinks" onclick="openTab(event, 'Notificaciones')">Notificaciones</button>
+      </div>
+  
+      <div id="PreferenciasT" class="tabcontent">
+        <div
+                           
                           >
                           <div class="container-fluid">
                             <div class="row">
@@ -22309,6 +21277,7 @@ $(document).ready(function(){
                                 <div class="row-fluid">
                                   <div class="col-md-12 text-center">
                                     <h3 class="configuracion_h3">Preferencias</h3>
+                                    <br/>
                                   </div>
                                 </div>
                                 <br />
@@ -22693,17 +21662,760 @@ $(document).ready(function(){
                             </div>
                           </div>
                           </div>
-                          <div id="correoSection" class="tab-pane fade">
-                            <h3>Correo</h3>
+
+
+      </div>
+
+      <div id="Correo" class="tabcontent">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="row">
+                <div class="col-md-12 text-center">
+                  <h3 class="configuracion_h3">
+                    Correo para tus Clientes
+                  </h3>
+                </div>
+              </div>
+              <br />
+
+              <div class="row">
+                <div class="col-md-8 col-md-offset-1">
+                  <form
+                    class="form-empresas-correos bv-form form-horizontal"
+                    id="new_empresas_correos"
+                    action="https://sistema.docdigitales.com/admin/empresas/191/correos"
+                    accept-charset="UTF-8"
+                    method="post"
+                    novalidate="novalidate"
+                  >
+                    <button
+                      type="submit"
+                      class="bv-hidden-submit"
+                      style="display: none; width: 0px; height: 0px"
+                    ></button
+                    ><input name="utf8" type="hidden" value="✓" /><input
+                      type="hidden"
+                      name="authenticity_token"
+                      value="9SHyAnNJuO+8oBDNeOI8vHj7vv5b8z3OqKtr6qZawztvzA9wTETz+BrXU0cur6FQP0kMV5pvaa1jWYKliuwYCw=="
+                    />
+                    <div class="form-group">
+                      <div class="row">
+                        <div class="control-group">
+                          <label
+                            class="col-md-4 control-label"
+                            for="nombre"
+                            >Remitente:</label
+                          >
+                          <div class="col-md-8">
+                            <input
+                              class="form-control input_gris input-xlarge"
+                              type="text"
+                              name="empresas_correos[nombre]"
+                              id="empresas_correos_nombre"
+                            />
                           </div>
-                          <div id="logoSection" class="tab-pane fade">
-                            <h3>Logo</h3>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="form-group">
+                      <div class="row">
+                        <div class="control-group">
+                          <label
+                            class="col-md-4 control-label"
+                            for="correo"
+                            >Correo Remitente:</label
+                          >
+                          <div class="col-md-8">
+                            <input
+                              class="form-control input_gris input-xlarge"
+                              type="text"
+                              name="empresas_correos[correo]"
+                              id="empresas_correos_correo"
+                              data-bv-field="empresa_correo_remitente"
+                            />
+                            <small
+                              class="help-block"
+                              data-bv-validator="emailAddress"
+                              data-bv-for="empresa_correo_remitente"
+                              data-bv-result="NOT_VALIDATED"
+                              style="display: none"
+                              >* Favor de escribir un correo
+                              electronico.</small
+                            >
                           </div>
-                          <div id="pagosEnLineaSection" class="tab-pane fade">
-                            <h3>Pagos en Linea</h3>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="form-group">
+                      <div class="row">
+                        <div class="control-group">
+                          <label
+                            class="col-md-4 control-label"
+                            for="correo"
+                            >Nueva Factura:</label
+                          >
+                          <div class="col-md-8">
+                            <button
+                              id="nueva-factura-link"
+                              type="button"
+                              class="btn_accion_ter"
+                              data-tipo="1"
+                            >
+                              Editar
+                            </button>
                           </div>
-                          <div id="notificacionesSection" class="tab-pane fade">
-                            <h3>Notificaciones</h3>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="form-group">
+                      <div class="row">
+                        <div class="control-group">
+                          <label
+                            class="col-md-4 control-label"
+                            for="correo"
+                            >Nueva Recepción:</label
+                          >
+                          <div class="col-md-8">
+                            <button
+                              id="nueva-recepcion-link"
+                              type="button"
+                              class="btn_accion_ter"
+                              data-tipo="5"
+                            >
+                              Editar
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="form-group">
+                      <div class="row">
+                        <div class="control-group">
+                          <label
+                            class="col-md-4 control-label"
+                            for="correo"
+                            >Nueva Cotización:</label
+                          >
+                          <div class="col-md-8">
+                            <button
+                              id="nueva-cotizacion-link"
+                              type="button"
+                              class="btn_accion_ter"
+                              data-tipo="2"
+                            >
+                              Editar
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="form-group">
+                      <div class="row">
+                        <div class="control-group">
+                          <label
+                            class="
+                              col-md-4
+                              control-label
+                              no-padding-right
+                            "
+                            for="correo"
+                            >Nuevo Usuario Creado:</label
+                          >
+                          <div class="col-md-8">
+                            <button
+                              id="nuevo-usuario-link"
+                              type="button"
+                              class="btn_accion_ter"
+                              data-tipo="3"
+                            >
+                              Editar
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="form-group">
+                      <div class="row">
+                        <div class="control-group">
+                          <label
+                            class="col-md-4 control-label"
+                            for="correo"
+                            >Nuevo Staff Creado:</label
+                          >
+                          <div class="col-md-8">
+                            <button
+                              id="nuevo-staff-link"
+                              type="button"
+                              class="btn_accion_ter"
+                              data-tipo="4"
+                            >
+                              Editar
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="form-group">
+                      <div class="row">
+                        <div class="control-group">
+                          <label class="col-md-4 control-label"></label>
+                          <label class="col-md-8 text-center" for="firma"
+                            >Firma de Todos los Correos</label
+                          >
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="form-group">
+                      <div class="row">
+                        <div class="control-group">
+                          <label class="col-md-4 control-label"></label>
+                          <div class="col-md-8">
+                            <textarea
+                              name="firma"
+                              id="firma"
+                              class="form-control textarea_gris"
+                              rows="4"
+                            >
+El importe total de esta factura deberá ser pagado en la misma denominación con la que fue facturada.</textarea
+                            >
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="row">
+                      <div class="col-md-8 col-md-offset-4 text-center">
+                        <div class="control-group">
+                          <div class="controls">
+                            <input
+                              type="submit"
+                              name="commit"
+                              value="Guardar"
+                              id="btn-guardar-preferencias-correo"
+                              class="btn_accion_prim"
+                              style="margin-top: 10px"
+                              data-disable-with="Guardar"
+                            />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </form>
+                  <!-- Modals -->
+                  <div class="row">
+                    <div class="col-md-12">
+                      <div
+                        id="dd-configuracion-correo-2-modal"
+                        class="modal fade"
+                        tabindex="-1"
+                        role="dialog"
+                        aria-labelledby="myModalLabel"
+                        aria-hidden="true"
+                      >
+                        <div class="modal-dialog">
+                          <div class="modal-content" style="width: 750px">
+                            <div class="modal-header">
+                              <h4 id="modal-header-label">
+                                <div id="texto_encabezado"></div>
+                              </h4>
+                            </div>
+                            <div class="modal-body">
+                              <div class="tabbable">
+                                <div class="tab-content form-horizontal">
+                                  <div
+                                    class="tab-pane active"
+                                    id="empresa"
+                                  >
+                                    <div class="form-group">
+                                      <div class="col-md-7">
+                                        <label
+                                          class="
+                                            col-md-2
+                                            control-label
+                                            no-padding-left
+                                          "
+                                          >Subject:</label
+                                        >
+                                        <div
+                                          id="correo_subject"
+                                          contenteditable="true"
+                                          class="form-control input_gris"
+                                        ></div>
+                                      </div>
+                                    </div>
+
+                                    <div class="form-group">
+                                      <div class="col-md-12">
+                                        <label
+                                          class="
+                                            col-md-2
+                                            control-label
+                                            no-padding-left
+                                          "
+                                          >Mensaje:</label
+                                        >
+                                        <div
+                                          id="correo_mensaje"
+                                          contenteditable="true"
+                                          class="
+                                            form-control
+                                            textarea_gris
+                                          "
+                                          style="height: 200px"
+                                        ></div>
+                                      </div>
+                                    </div>
+
+                                    <!--dropdown variables-->
+                                    <div class="form-group">
+                                      <div class="col-md-10">
+                                        <div class="col-md-4 no-padding">
+                                          <label
+                                            class="
+                                              col-md-12
+                                              control-label
+                                              no-padding
+                                            "
+                                            for="sucursal_default"
+                                            >Insertar Variable:</label
+                                          >
+                                          <input
+                                            type="hidden"
+                                            name="hdn_vars_tipo"
+                                            id="hdn_vars_tipo"
+                                            value=""
+                                          />
+                                          <select
+                                            name="vars_factura_list"
+                                            id="vars_factura_list"
+                                            class="
+                                              form-control
+                                              input_gris
+                                              hidden
+                                            "
+                                          >
+                                            <option
+                                              value=""
+                                              label=" "
+                                            ></option>
+                                            <option value="1">
+                                              Numero de Factura
+                                            </option>
+                                            <option value="3">
+                                              Total de la Factura
+                                            </option>
+                                            <option value="4">
+                                              Nombre Empresa
+                                            </option>
+                                            <option value="5">
+                                              Nombre Cliente
+                                            </option>
+                                            <option value="6">
+                                              Nombre Contacto
+                                            </option>
+                                            <option value="25">
+                                              Recepciones de Pago
+                                            </option>
+                                          </select>
+                                          <select
+                                            name="vars_cotizacion_list"
+                                            id="vars_cotizacion_list"
+                                            class="
+                                              form-control
+                                              input_gris
+                                              hidden
+                                            "
+                                          >
+                                            <option
+                                              value=""
+                                              label=" "
+                                            ></option>
+                                            <option value="7">
+                                              Numero de Cotizacion
+                                            </option>
+                                            <option value="9">
+                                              Total de Cotizacion
+                                            </option>
+                                            <option value="10">
+                                              Nombre Empresa
+                                            </option>
+                                            <option value="11">
+                                              Nombre Cliente
+                                            </option>
+                                            <option value="12">
+                                              Nombre Contacto
+                                            </option>
+                                          </select>
+                                          <select
+                                            name="vars_usuario_list"
+                                            id="vars_usuario_list"
+                                            class="
+                                              form-control
+                                              input_gris
+                                              hidden
+                                            "
+                                          >
+                                            <option
+                                              value=""
+                                              label=" "
+                                            ></option>
+                                            <option value="13">
+                                              Link de Acceso
+                                            </option>
+                                            <option value="14">
+                                              Nombre Empresa
+                                            </option>
+                                            <option value="15">
+                                              Nombre Cliente
+                                            </option>
+                                            <option value="16">
+                                              Nombre Contacto
+                                            </option>
+                                            <option value="17">
+                                              Constraseña
+                                            </option>
+                                            <option value="24">
+                                              Usuario
+                                            </option>
+                                          </select>
+                                          <select
+                                            name="vars_staff_list"
+                                            id="vars_staff_list"
+                                            class="
+                                              form-control
+                                              input_gris
+                                              hidden
+                                            "
+                                          >
+                                            <option
+                                              value=""
+                                              label=" "
+                                            ></option>
+                                            <option value="18">
+                                              Link de Acceso
+                                            </option>
+                                            <option value="19">
+                                              Nombre Empresa
+                                            </option>
+                                            <option value="20">
+                                              Nombre Usuario Staff
+                                            </option>
+                                            <option value="22">
+                                              Usuario
+                                            </option>
+                                            <option value="23">
+                                              Contraseña
+                                            </option>
+                                          </select>
+                                          <select
+                                            name="vars_recepcion_list"
+                                            id="vars_recepcion_list"
+                                            class="
+                                              form-control
+                                              input_gris
+                                              hidden
+                                            "
+                                          >
+                                            <option
+                                              value=""
+                                              label=" "
+                                            ></option>
+                                            <option value="26">
+                                              Nombre Empresa
+                                            </option>
+                                            <option value="27">
+                                              Total de la Recepcion
+                                            </option>
+                                            <option value="28">
+                                              Nombre Cliente
+                                            </option>
+                                            <option value="29">
+                                              Numero de Recepcion
+                                            </option>
+                                            <option value="30">
+                                              CFDI Relacionados
+                                            </option>
+                                          </select>
+                                          <button
+                                            id="btn-regresar-default"
+                                            class="
+                                              btn_accion_ter
+                                              no-padding
+                                            "
+                                            aria-hidden="true"
+                                          >
+                                            Regresar a predeterminado
+                                          </button>
+                                        </div>
+                                        <div class="col-md-6">
+                                          <div><br /></div>
+                                          <button
+                                            id="btn-inserta-variable"
+                                            class="btn_accion_ter"
+                                            aria-hidden="true"
+                                          >
+                                            Insertar
+                                          </button>
+                                        </div>
+                                      </div>
+                                    </div>
+
+                                    <!--botones-->
+                                    <div class="control-group">
+                                      <hr />
+                                      <div class="row">
+                                        <div class="col-md-12 text-right">
+                                          <button
+                                            id="btn-guardar-configuracion-correo"
+                                            class="btn_accion_prim mt-0"
+                                            aria-hidden="true"
+                                          >
+                                            Guardar
+                                          </button>
+                                          <button
+                                            id="btn-preview-configuracion-correo"
+                                            class="btn_accion_prim mt-0"
+                                            aria-hidden="true"
+                                            data-tipo=""
+                                          >
+                                            Vista Previa
+                                          </button>
+                                          <button
+                                            class="
+                                              btn_cancelar_modal
+                                              btn_accion_sec
+                                            "
+                                            data-dismiss="modal"
+                                            aria-hidden="true"
+                                          >
+                                            Cancelar
+                                          </button>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="modal-footer"></div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <!-- Modals -->
+                      <div class="row">
+                        <div class="col-md-12">
+                          <!-- Modal -->
+                          <div
+                            id="dd-modal"
+                            class="modal fade"
+                            tabindex="-1"
+                            role="dialog"
+                            aria-labelledby="myModalLabel"
+                            aria-hidden="true"
+                          >
+                            <div class="modal-dialog">
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <button
+                                    type="button"
+                                    class="close"
+                                    data-dismiss="modal"
+                                  >
+                                    <span aria-hidden="true">×</span
+                                    ><span class="sr-only">Close</span>
+                                  </button>
+                                  <h4
+                                    class="modal-title"
+                                    id="myModalLabel"
+                                  ></h4>
+                                </div>
+                                <div
+                                  class="modal-body"
+                                  style="padding-top: 30px"
+                                ></div>
+                                <div class="modal-footer">
+                                  <button
+                                    type="button"
+                                    class="btn btn-default"
+                                    data-dismiss="modal"
+                                  >
+                                    Cerrar
+                                  </button>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+
+                          <!-- Informar -->
+                          <div
+                            id="dd-inform-modal"
+                            class="modal fade"
+                            tabindex="-1"
+                            role="dialog"
+                            aria-labelledby="myModalLabel"
+                            aria-hidden="true"
+                          >
+                            <div class="modal-dialog">
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <button
+                                    type="button"
+                                    class="close"
+                                    data-dismiss="modal"
+                                  >
+                                    <span aria-hidden="true">×</span>
+                                    <span class="sr-only">Close</span>
+                                  </button>
+                                  <h4
+                                    class="modal-title"
+                                    id="myModalLabel"
+                                  ></h4>
+                                </div>
+                                <div class="modal-body"></div>
+                                <div class="modal-footer">
+                                  <button
+                                    type="button"
+                                    class="btn btn-default"
+                                    data-dismiss="modal"
+                                  >
+                                    Cerrar
+                                  </button>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+
+                          <!-- Modal de Confirmacion -->
+                          <div
+                            id="dd-confirm-modal"
+                            class="modal fade"
+                            tabindex="-1"
+                            role="dialog"
+                            aria-labelledby="myModalLabel"
+                            aria-hidden="true"
+                          >
+                            <div class="modal-dialog">
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <button
+                                    type="button"
+                                    class="close"
+                                    data-dismiss="modal"
+                                  >
+                                    <span aria-hidden="true">×</span
+                                    ><span class="sr-only">Close</span>
+                                  </button>
+                                  <h4
+                                    class="modal-title"
+                                    id="myModalLabel"
+                                  ></h4>
+                                </div>
+                                <div
+                                  class="modal-body-v"
+                                  style="padding: 15px"
+                                ></div>
+                                <div class="modal-footer">
+                                  <button
+                                    id="btn-confirm"
+                                    class="btn_accion_prim mt-0"
+                                    data-dismiss="modal"
+                                    aria-hidden="true"
+                                  >
+                                    Aceptar
+                                  </button>
+                                  <button
+                                    id="btn-cancel-action"
+                                    type="button"
+                                    class="btn_accion_sec no-bgc"
+                                    data-dismiss="modal"
+                                  >
+                                    Cancelar
+                                  </button>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+
+                          <!-- Modal de "Cargando" -->
+                          <div
+                            id="dd-loading-modal"
+                            class="modal fade"
+                            tabindex="-1"
+                            role="dialog"
+                            aria-labelledby="myModalLabel"
+                            aria-hidden="true"
+                          >
+                            <div class="modal-dialog">
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <h3
+                                    id="modal-loading-header-label"
+                                  ></h3>
+                                </div>
+                                <div class="modal-body">
+                                  <div id="modal-body-text"></div>
+                                  <br />
+                                  <div class="progress">
+                                    <div
+                                      class="
+                                        progress-bar
+                                        progress-bar-info
+                                        progress-bar-striped
+                                        active
+                                      "
+                                      role="progressbar"
+                                      aria-valuenow="100"
+                                      aria-valuemin="0"
+                                      aria-valuemax="100"
+                                      style="width: 100%"
+                                    ></div>
+                                    <div
+                                      class="
+                                        progress-bar
+                                        progress-bar-danger
+                                        progress-bar-striped
+                                        hidden
+                                      "
+                                      role="progressbar"
+                                      aria-valuenow="100"
+                                      aria-valuemin="0"
+                                      aria-valuemax="100"
+                                      style="width: 100%"
+                                    ></div>
+                                  </div>
+                                </div>
+                                <div
+                                  class="modal-footer hidden"
+                                  id="dd-loading-modal-footer"
+                                >
+                                  <button
+                                    type="button"
+                                    id="btn-sugerir-agregar-tarjeta"
+                                    style="display: none"
+                                    class="btn_accion_sec"
+                                  >
+                                    Agregar Tarjeta
+                                  </button>
+                                  <button
+                                    type="button"
+                                    class="btn_accion_ter"
+                                    data-dismiss="modal"
+                                  >
+                                    Cerrar
+                                  </button>
+                                </div>
+                              </div>
+                            </div>
                           </div>
                         </div>
                       </div>
@@ -22711,6 +22423,307 @@ $(document).ready(function(){
                   </div>
                 </div>
               </div>
+              <script type="text/javascript">
+                $(function () {
+                  empresas_correos_index();
+                });
+              </script>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <div id="Logo" class="tabcontent">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="row">
+                <div class="col-md-12 text-center">
+                  <h3 class="configuracion_h3">Logotipo</h3>
+                </div>
+              </div>
+              <br />
+              <!-- Imagen de logo Empresa -->
+              <div class="div-logo">
+                <div class="row">
+                  <div class="col-md-1"></div>
+                  <div class="col-md-4">
+                    <div id="div-logo-empresa" class="text-center">
+                      <img
+                        src="./Facturación en Línea _ docDigitales_files/EmpresaLogo20110318.bmp"
+                        class="img-logo"
+                      />
+                      <button
+                        id="btn-eliminar-img-logo"
+                        class="btn_accion_ter"
+                      >
+                        Eliminar imagen
+                      </button>
+                      <div class="img-borde-logo hidden">
+                        <p>Favor de subir su logo.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <form
+                      id="forma-importar-logo-empresa"
+                      enctype="multipart/form-data"
+                      action="https://sistema.docdigitales.com/admin/empresas/importar/imagenes"
+                      accept-charset="UTF-8"
+                      method="post"
+                    >
+                      <input name="utf8" type="hidden" value="✓" /><input
+                        type="hidden"
+                        name="authenticity_token"
+                        value="9SHyAnNJuO+8oBDNeOI8vHj7vv5b8z3OqKtr6qZawztvzA9wTETz+BrXU0cur6FQP0kMV5pvaa1jWYKliuwYCw=="
+                      />
+                      <div class="row">
+                        <div class="col-md-12">
+                          <div class="control-group text-center">
+                            <label for="" class="col-md-12 control-label"
+                              ><b>Sube el logotipo de tu empresa.</b>
+                              <br />Las imágenes se ajustan
+                              automaticamente a 200 x 200 px. <br /><br />
+                            </label>
+                          </div>
+
+                          <div class="control-group text-center">
+                            <div class="col-md-12">
+                              <input
+                                type="hidden"
+                                name="hdn_imagen"
+                                id="hdn_imagen"
+                                value="logo"
+                              />
+                              <div class="col-md-12">
+                                <input
+                                  type="file"
+                                  name="file"
+                                  id="file"
+                                />
+                              </div>
+                              <br />
+                              <input
+                                type="submit"
+                                name="commit"
+                                value="Subir imagen"
+                                class="btn_accion_prim file-logo"
+                                data-disable-with="Subir imagen"
+                              />
+                            </div>
+                          </div>
+
+                          <div class="control-group text-center">
+                            <label for="" class="col-md-12 control-label"
+                              ><b
+                                >Formatos recomendados: <br />JPG, JPEG,
+                                GIF, PNG, BMP</b
+                              ></label
+                            >
+                          </div>
+                          <br />
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+              <br />
+              <br />
+              <br />
+              <br />
+              <!-- Imagen de logo RFC -->
+              <div class="div-rfc hidden">
+                <div class="row">
+                  <div class="col-md-2 col-md-offset-1">
+                    <h4 class="display-inline">RFC</h4>
+                    <span
+                      class="
+                        glyphicon glyphicon-question-sign
+                        question-logos
+                      "
+                      title="Las imágenes se ajustan automaticamente a 300x200 px"
+                    ></span>
+                  </div>
+                  <div class="col-md-4">
+                    <form
+                      id="forma-importar-logo-rfc"
+                      enctype="multipart/form-data"
+                      action="https://sistema.docdigitales.com/admin/empresas/importar/imagenes"
+                      accept-charset="UTF-8"
+                      method="post"
+                    >
+                      <input name="utf8" type="hidden" value="✓" /><input
+                        type="hidden"
+                        name="authenticity_token"
+                        value="9SHyAnNJuO+8oBDNeOI8vHj7vv5b8z3OqKtr6qZawztvzA9wTETz+BrXU0cur6FQP0kMV5pvaa1jWYKliuwYCw=="
+                      />
+                      <div class="row">
+                        <div class="col-md-12">
+                          <div class="control-group">
+                            <label for="" class="col-md-11 control-label"
+                              >Formatos recomendados</label
+                            >
+                            <label for="" class="col-md-11 control-label"
+                              >JPG, JPEG, GIF, PNG, BMP</label
+                            >
+                            <input
+                              type="hidden"
+                              name="hdn_imagen"
+                              id="hdn_imagen"
+                              value="rfc"
+                            />
+                            <div class="col-md-11">
+                              <input type="file" name="file" id="file" />
+                            </div>
+                          </div>
+                          <br />
+                          <div class="control-group">
+                            <div class="col-md-12">
+                              <br />
+                              <input
+                                type="submit"
+                                name="commit"
+                                value="Subir imagen"
+                                class="
+                                  btn_accion_prim
+                                  mt-10
+                                  file-logo-rfc
+                                "
+                                data-disable-with="Subir imagen"
+                              />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                  <div class="col-md-4">
+                    <div id="div-logo-rfc" class="text-center">
+                      <img
+                        src="./Facturación en Línea _ docDigitales_files/EmpresaRFCImagen21030728.jpg"
+                        class="img-rfc"
+                      />
+                      <button
+                        id="btn-eliminar-img-rfc"
+                        class="btn btn-link btn-mini"
+                      >
+                        Eliminar imagen
+                      </button>
+                      <div class="img-borde-rfc hidden">
+                        <p>Favor de subir su cédula.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Template para agregar el logo de la empresa -->
+              <script
+                id="tmpl_logo_emp"
+                type="text/x-handlebars-template"
+              >
+                <img src="{{imagen_url}}" class="img-logo" />
+              </script>
+
+              <!-- Template para agregar logo RFC -->
+              <script
+                id="tmpl_logo_rfc"
+                type="text/x-handlebars-template"
+              >
+                <img src="{{imagen_url}}" class="img-rfc" />
+              </script>
+
+              <!-- Template de la tabla Series para agregar un nuevo row. -->
+              <script
+                id="tmpl_serie_row"
+                type="text/x-handlebars-template"
+              >
+                <tr>
+                  <td>{{serie}}</td>
+                  <td>{{folio}}</td>
+                  <td><button
+                      class="btn_sm btn_accion_sec btn-mini btn-eliminar-serie"
+                      data-target="{{id}}"
+                    >Eliminar</button></td>
+                </tr>
+              </script>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <div id="PagosEnLinea" class="tabcontent">
+        <h4>Pagos en Linea</h4>
+        <p>Para habilitar la opcion de recibir pagos en linea, solo necesitas crear tu cuenta en Conekta, 
+          copiar las llaves que te facilitaran, y regresar aqui para pegar las llaves y conectar tu servicio.</p>
+          <div class="stepsContainer">
+            <div class="stepsContent">
+              <div class="steps-Icon">
+
+              </div>
+              <div class="steps-Text">
+                <h4>Paso #1</h4>
+                <p>Da click en Crea tu cuenta, registrate y crea tu negocio en Conekta.</p>
+              </div>
+            </div>
+            <div class="stepsContent">
+              <div class="steps-Icon">
+
+              </div>
+              <div class="steps-Text">
+                <h4>Paso #2</h4>
+                <p>Copias las llaves API que te da Conekta</p>
+              </div>
+            </div>
+            <div class="stepsContent">
+              <div class="steps-Icon">
+
+              </div>
+              <div class="steps-Text">
+                <h4>Paso #3</h4>
+                <p>Regresa a esta pagina, pega las llaves y da click en Conectar</p>
+              </div>
+            </div>
+          </div>
+          <div class="toConekta">
+            <img src="./Facturación en Línea _ docDigitales_files/conektaLogo.png"/>
+            <button>Crea tu cuenta</button>
+          </div>
+         
+      </div>
+
+      <div id="Notificaciones" class="tabcontent">
+        <h3>Notificaciones</h3>
+        <p>Tokyo is the capital of Japan.</p>
+      </div>
+
+      <script>
+        function openTab(evt, TabName) {
+          var i, tabcontent, tablinks;
+          tabcontent = document.getElementsByClassName("tabcontent");
+          for (i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].style.display = "none";
+          }
+          tablinks = document.getElementsByClassName("tablinks");
+          for (i = 0; i < tablinks.length; i++) {
+            tablinks[i].className = tablinks[i].className.replace(" active", "");
+          }
+          document.getElementById(TabName).style.display = "block";
+          evt.currentTarget.className += " active";
+        }
+  
+        // Get the element with id="defaultOpen" and click on it
+        document.getElementById("defaultOpen").click();
+      </script>
+  
+    </div>
+  </div>
+</div>
+
+
+
+              
 
               
             </div>
