@@ -115,6 +115,7 @@ body {
     width: 72px;
     height: 72px;
     border-radius: 80px;
+    margin-bottom: 1rem;
 }
 
 .steps-Text {
@@ -143,15 +144,18 @@ body {
     margin-bottom: 2rem;
 }
 
-.toConekta button {
+.buttonToConekta{
     width: 180px;
     height: 43px;
     border-radius: 5px;
     background-color: #4966e0;
     color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.toConekta button:hover {
+.buttonToConekta:hover {
     cursor: pointer;
     background-color: #6883ee;
     color: #fff;
@@ -196,4 +200,21 @@ body {
 
 .apiContainer{
     margin: 3rem 0;
+}
+
+.correoItemGroup{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 1.5rem;
+}
+
+.correoItemGroupLeft{
+    display: flex;
+    flex-direction: column;
+    width: 434px;
+    flex-wrap: wrap;
+}
+
+.correoItemGroupRight{
+    align-self: center;
 }
