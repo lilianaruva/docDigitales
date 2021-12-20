@@ -144,7 +144,7 @@ body {
     margin-bottom: 2rem;
 }
 
-.buttonToConekta{
+.buttonToConekta {
     width: 180px;
     height: 43px;
     border-radius: 5px;
@@ -193,28 +193,86 @@ body {
     color: #666666;
 }
 
-.panel img{
+.panel img {
     margin-bottom: 3rem;
     margin-top: 2rem;
 }
 
-.apiContainer{
+.apiContainer {
     margin: 3rem 0;
 }
 
-.correoItemGroup{
+.correoItemGroup {
     display: flex;
     justify-content: space-between;
     margin-left: 1.5rem;
 }
 
-.correoItemGroupLeft{
+.correoItemGroupLeft {
     display: flex;
     flex-direction: column;
     width: 434px;
     flex-wrap: wrap;
 }
 
-.correoItemGroupRight{
+.correoItemGroupRight {
     align-self: center;
+}
+
+.logoEmpresaContainer {
+    border: 1px solid #eeeeee;
+    border-radius: 5px;
+    padding: 2rem;
+    margin: 2rem 0;
+    display: flex;
+}
+
+.logoEmpresaImage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90px;
+}
+
+.logoEmpresaImage img {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    border: 1px solid #eeeeee;
+    object-fit: contain;
+    margin-bottom: 1rem;
+}
+
+.logoEmpresaDer {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-left: 2rem;
+}
+
+.logoEmpresaDer button {
+    border-radius: 18px;
+    width: 115px;
+    height: 30px;
+    background-color: #088bbd;
+    color: #fff
+}
+
+.logoEmpresaFactura {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 137px;
+    height: 91px;
+    border-radius: 3px;
+    border: solid 1px #eee;
+}
+
+.logoEmpresaFactura img {
+    width: 135px;
+    height: 91px;
+    object-fit: contain;
+    margin-bottom: 1rem;
 }
