@@ -15519,170 +15519,54 @@
                           <p>Aquí puedes subir la imagen del logo de tu empresa, y la imagen del RFC en caso de que
                             utilices la factura tradicional</p>
                           <br />
-                          <p style="
-                                font-weight: bold;
-                                color: #444851;
-                              ">Logo de tu empresa</p>
-                          <div class="logoEmpresaContainer">
-                            <div class="logoEmpresaImage">
-                              <img src="./Facturación en Línea _ docDigitales_files/EmpresaLogo20110318.bmp"
-                                class="img-logo" />
-                              <button id="btn-eliminar-img-logo" class="btn_accion_ter">
-                                Eliminar
-                              </button>
-                            </div>
-                            <div class="logoEmpresaDer">
-                              <p>Las imágenes se ajustan automáticamente a 200 x 200 px.</p>
-                              <p>Formatos recomendados: JPG, JPEG, PNG, GIF, BMP.</p>
-                              <button>Subir imagen</button>
-                            </div>
-                          </div>
-                          <p style="
-                                font-weight: bold;
-                                color: #444851;
-                                margin-top: 1rem;
-                              ">RFC para factura tradicional</p>
-                          <div class="logoEmpresaContainer">
-                            <div class="logoEmpresaFactura">
-                              <img src="./Facturación en Línea _ docDigitales_files/EmpresaLogo20110318.bmp"
-                                class="img-logo" />
-                            </div>
-                            <div class="logoEmpresaDer">
-                              <p>Las imágenes se ajustan automáticamente a 300 x 200 px.</p>
-                              <p>Formatos recomendados: JPG, JPEG, PNG, GIF, BMP.</p>
-                              <button>Subir imagen</button>
-                            </div>
-                          </div>
-
-                          <!-- Imagen de logo Empresa -->
-                          <div class="div-logo">
-                            <div class="row">
-                              <div class="col-md-1"></div>
-                              <div class="col-md-4">
-                                <div id="div-logo-empresa" class="text-center">
-                                  <img src="./Facturación en Línea _ docDigitales_files/EmpresaLogo20110318.bmp"
-                                    class="img-logo" />
-                                  <button id="btn-eliminar-img-logo" class="btn_accion_ter">
-                                    Eliminar imagen
-                                  </button>
-                                  <div class="img-borde-logo hidden">
-                                    <p>Favor de subir su logo.</p>
-                                  </div>
-                                </div>
+                          <p style="font-weight: bold; color: #444851; margin-top: 1rem;">Logo de tu empresa</p>
+                          <!--LOGO EMPRESA-->
+                          <form>
+                            <div class="logoEmpresaContainer">
+                              <div class="logoEmpresaImage">
+                                <img id="logoEmpresaOutput"
+                                  src="./Facturación en Línea _ docDigitales_files/EmpresaLogo20110318.bmp"
+                                  class="img-logo" />
+                                <button id="btn-eliminar-img-logo" class="btn_accion_ter">
+                                  Eliminar
+                                </button>
                               </div>
-                              <div class="col-md-6">
-                                <form id="forma-importar-logo-empresa" enctype="multipart/form-data"
-                                  action="https://sistema.docdigitales.com/admin/empresas/importar/imagenes"
-                                  accept-charset="UTF-8" method="post">
-                                  <input name="utf8" type="hidden" value="✓" /><input type="hidden"
-                                    name="authenticity_token"
-                                    value="9SHyAnNJuO+8oBDNeOI8vHj7vv5b8z3OqKtr6qZawztvzA9wTETz+BrXU0cur6FQP0kMV5pvaa1jWYKliuwYCw==" />
-                                  <div class="row">
-                                    <div class="col-md-12">
-                                      <div class="control-group text-center">
-                                        <label for="" class="col-md-12 control-label"><b>Sube el logotipo de tu
-                                            empresa.</b>
-                                          <br />Las imágenes se ajustan
-                                          automaticamente a 200 x 200 px.
-                                          <br /><br />
-                                        </label>
-                                      </div>
-
-                                      <div class="control-group text-center">
-                                        <div class="col-md-12">
-                                          <input type="hidden" name="hdn_imagen" id="hdn_imagen" value="logo" />
-                                          <div class="col-md-12">
-                                            <input type="file" name="file" id="file" />
-                                          </div>
-                                          <br />
-                                          <input type="submit" name="commit" value="Subir imagen"
-                                            class="btn_accion_prim file-logo" data-disable-with="Subir imagen" />
-                                        </div>
-                                      </div>
-
-                                      <div class="control-group text-center">
-                                        <label for="" class="col-md-12 control-label"><b>Formatos recomendados:
-                                            <br />JPG,
-                                            JPEG, GIF, PNG, BMP</b></label>
-                                      </div>
-                                      <br />
-                                    </div>
-                                  </div>
-                                </form>
+                              <div class="logoEmpresaDer">
+                                <p>Las imágenes se ajustan automáticamente a 200 x 200 px.</p>
+                                <p>Formatos recomendados: JPG, JPEG, PNG, GIF, BMP.</p>
+                                <label class="logoEmpresaDerButton">
+                                  Subir imagen
+                                  <input name="logoEmpresa" type="file"
+                                    accept="image/png, image/gif, image/jpeg, image/jpg, image/bmp"
+                                    style="display: none"
+                                    onchange="document.getElementById('logoEmpresaOutput').src = window.URL.createObjectURL(this.files[0])" />
+                                </label>
                               </div>
                             </div>
-                          </div>
-                          <br />
-                          <br />
-                          <br />
-                          <br />
-                          <!-- Imagen de logo RFC -->
-                          <div class="div-rfc hidden">
-                            <div class="row">
-                              <div class="col-md-2 col-md-offset-1">
-                                <h4 class="display-inline">RFC</h4>
-                                <span class="
-                                      glyphicon glyphicon-question-sign
-                                      question-logos
-                                    " title="Las imágenes se ajustan automaticamente a 300x200 px"></span>
+                          </form>
+                          <p style="font-weight: bold; color: #444851; margin-top: 1rem;">RFC para factura tradicional
+                          </p>
+                          <!--RFC FACTURA TRADICIONAL-->
+                          <form>
+                            <div class="logoEmpresaContainer">
+                              <div class="logoEmpresaFactura">
+                                <img id="FacturaImgOutput"
+                                  src="./Facturación en Línea _ docDigitales_files/EmpresaLogo20110318.bmp"
+                                  class="img-logo" />
                               </div>
-                              <div class="col-md-4">
-                                <form id="forma-importar-logo-rfc" enctype="multipart/form-data"
-                                  action="https://sistema.docdigitales.com/admin/empresas/importar/imagenes"
-                                  accept-charset="UTF-8" method="post">
-                                  <input name="utf8" type="hidden" value="✓" /><input type="hidden"
-                                    name="authenticity_token"
-                                    value="9SHyAnNJuO+8oBDNeOI8vHj7vv5b8z3OqKtr6qZawztvzA9wTETz+BrXU0cur6FQP0kMV5pvaa1jWYKliuwYCw==" />
-                                  <div class="row">
-                                    <div class="col-md-12">
-                                      <div class="control-group">
-                                        <label for="" class="col-md-11 control-label">Formatos recomendados</label>
-                                        <label for="" class="col-md-11 control-label">JPG, JPEG, GIF, PNG, BMP</label>
-                                        <input type="hidden" name="hdn_imagen" id="hdn_imagen" value="rfc" />
-                                        <div class="col-md-11">
-                                          <input type="file" name="file" id="file" />
-                                        </div>
-                                      </div>
-                                      <br />
-                                      <div class="control-group">
-                                        <div class="col-md-12">
-                                          <br />
-                                          <input type="submit" name="commit" value="Subir imagen" class="
-                                                btn_accion_prim
-                                                mt-10
-                                                file-logo-rfc
-                                              " data-disable-with="Subir imagen" />
-                                        </div>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </form>
-                              </div>
-                              <div class="col-md-4">
-                                <div id="div-logo-rfc" class="text-center">
-                                  <img src="./Facturación en Línea _ docDigitales_files/EmpresaRFCImagen21030728.jpg"
-                                    class="img-rfc" />
-                                  <button id="btn-eliminar-img-rfc" class="btn btn-link btn-mini">
-                                    Eliminar imagen
-                                  </button>
-                                  <div class="img-borde-rfc hidden">
-                                    <p>Favor de subir su cédula.</p>
-                                  </div>
-                                </div>
+                              <div class="logoEmpresaDer">
+                                <p>Las imágenes se ajustan automáticamente a 300 x 200 px.</p>
+                                <p>Formatos recomendados: JPG, JPEG, PNG, GIF, BMP.</p>
+                                <label class="logoEmpresaDerButton">
+                                  Subir imagen
+                                  <input name="FacturaImg" type="file"
+                                    accept="image/png, image/gif, image/jpeg, image/jpg, image/bmp"
+                                    style="display: none"
+                                    onchange="document.getElementById('FacturaImgOutput').src = window.URL.createObjectURL(this.files[0])" />
+                                </label>
                               </div>
                             </div>
-                          </div>
-
-                          <!-- Template para agregar el logo de la empresa -->
-                          <script id="tmpl_logo_emp" type="text/x-handlebars-template">
-                            <img src="{{imagen_url}}" class="img-logo" />
-                            </script>
-
-                          <!-- Template para agregar logo RFC -->
-                          <script id="tmpl_logo_rfc" type="text/x-handlebars-template">
-                            <img src="{{imagen_url}}" class="img-rfc" />
-                            </script>
-
+                          </form>
                           <!-- Template de la tabla Series para agregar un nuevo row. -->
                           <script id="tmpl_serie_row" type="text/x-handlebars-template">
                             <tr>
@@ -15770,13 +15654,14 @@
                       </div>
                       <div class="toConekta">
                         <img src="./Facturación en Línea _ docDigitales_files/conektaLogo.png" />
-                        <a href="https://conekta.com/" target="_blank" class="buttonToConekta">Crea tu cuenta 
+                        <a href="https://conekta.com/" target="_blank" class="buttonToConekta">Crea tu cuenta
                           <i class="bi bi-box-arrow-up-right" style="color: #fff; margin-left:1rem;"></i>
                         </a>
                       </div>
                       <button class="accordion">
                         <div class="accordion-left">
-                          <i class="bi bi-list-ul" style="color: #444851; margin-right:1rem; font-size: 2rem;"></i>Guía paso a paso 
+                          <i class="bi bi-list-ul" style="color: #444851; margin-right:1rem; font-size: 2rem;"></i>Guía
+                          paso a paso
                         </div>
                         <div class="accordion-right">
                           <i class="bi bi-chevron-down" style="color: #444851; font-size: 2rem; right: 2rem"></i>
@@ -15856,8 +15741,8 @@
                             <div class="KeyIcon">
                               <i class="bi bi-key-fill" style="font-size: 2rem; color: #a6adbb; padding: 0 0.5rem;"></i>
                             </div>
-                            <input class="form-control input-xlarge" type="text" name="llave_publica"
-                            id="llave_publica" style="height: 45px" placeholder="Inserta aquí tu llave Pública..." />
+                            <input class="form-control input-xlarge" type="text" name="llave_publica" id="llave_publica"
+                              style="height: 45px" placeholder="Inserta aquí tu llave Pública..." />
                           </div>
                           <p style="
                               font-size: 14px;
@@ -15870,8 +15755,8 @@
                             <div class="KeyIcon">
                               <i class="bi bi-key-fill" style="font-size: 2rem; color: #a6adbb; padding: 0 0.5rem;"></i>
                             </div>
-                            <input class="form-control input-xlarge" type="text" name="llave_privada"
-                          id="llave_privada" style="height: 45px" placeholder="Inserta aquí tu llave Privada..." />
+                            <input class="form-control input-xlarge" type="text" name="llave_privada" id="llave_privada"
+                              style="height: 45px" placeholder="Inserta aquí tu llave Privada..." />
                           </div>
                           <div class="bottomKeyContainer">
                             <p>

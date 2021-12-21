@@ -265,13 +265,24 @@ body {
     text-align: left;
     margin-left: 2rem;
 }
-
-.logoEmpresaDer button {
+::-webkit-file-upload-button {
     border-radius: 18px;
     width: 115px;
     height: 30px;
     background-color: #088bbd;
     color: #fff
+  }
+
+.logoEmpresaDerButton {
+    cursor: pointer;
+    border-radius: 18px;
+    width: 115px;
+    height: 30px;
+    background-color: #088bbd;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 3rem;
 }
 
 .logoEmpresaFactura {
