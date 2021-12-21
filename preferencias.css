@@ -121,7 +121,7 @@ body {
     align-items: center;
 }
 
-.steps-Icon img{
+.steps-Icon img {
     width: 42px;
     height: 42px;
 }
@@ -190,10 +190,11 @@ body {
     justify-content: space-between;
 }
 
-.accordion-left{
+.accordion-left {
     display: flex;
     align-items: center;
 }
+
 /*.active, .accordion:hover {
    
   }*/
@@ -265,13 +266,14 @@ body {
     text-align: left;
     margin-left: 2rem;
 }
+
 ::-webkit-file-upload-button {
     border-radius: 18px;
     width: 115px;
     height: 30px;
     background-color: #088bbd;
     color: #fff
-  }
+}
 
 .logoEmpresaDerButton {
     cursor: pointer;
@@ -312,22 +314,252 @@ body {
 .bottomKeyContainer button {
     width: 90px;
     height: 30px;
-    background-color: #f5f6f8;
+    background-color: #088bbd;
+    color: #fff;
     border-radius: 18px;
     cursor: pointer;
 }
 
-.KeyInput{
+.bottomKeyContainer button:hover{background-color:#045d7c}
+
+
+.KeyInput {
     display: flex;
     border-radius: 4px;
     margin-bottom: 2rem;
 
 }
 
-.KeyIcon{
+.KeyIcon {
     border-radius: 4px 0 0 4px;
     border: solid 1px #ccc;
     display: flex;
     align-items: center;
     padding: 0.5rem;
 }
+
+.InputValid:invalid {
+    border: solid 1px red;
+}
+
+.InputValid:valid {
+    border: solid 1px #ccc;
+}
+
+.alreadyKey p {
+    font-size: 16px;
+    font-weight: 500;
+    color: #045d7c;
+}
+
+.alreadyKey button {
+    margin-top: 3rem;
+    width: 140px;
+    height: 40px;
+    border-radius: 20px;
+    border: solid 1px #045d7c;
+    color: #045d7c;
+    background-color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.alreadyKey button:hover {
+    color: #fff;
+    background-color: #045d7c;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+#loadingProgressG {
+    width: 243px;
+    height: 10px;
+    overflow: hidden;
+    background-color: rgb(0, 137, 187);
+    margin: auto;
+    border-radius: 9px;
+    -o-border-radius: 9px;
+    -ms-border-radius: 9px;
+    -webkit-border-radius: 9px;
+    -moz-border-radius: 9px;
+}
+
+.loadingProgressG {
+    background-color: rgb(255, 255, 255);
+    margin-top: 0;
+    margin-left: -243px;
+    animation-name: bounce_loadingProgressG;
+    -o-animation-name: bounce_loadingProgressG;
+    -ms-animation-name: bounce_loadingProgressG;
+    -webkit-animation-name: bounce_loadingProgressG;
+    -moz-animation-name: bounce_loadingProgressG;
+    animation-duration: 1.69s;
+    -o-animation-duration: 1.69s;
+    -ms-animation-duration: 1.69s;
+    -webkit-animation-duration: 1.69s;
+    -moz-animation-duration: 1.69s;
+    animation-iteration-count: infinite;
+    -o-animation-iteration-count: infinite;
+    -ms-animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    -o-animation-timing-function: linear;
+    -ms-animation-timing-function: linear;
+    -webkit-animation-timing-function: linear;
+    -moz-animation-timing-function: linear;
+    width: 243px;
+    height: 10px;
+}
+
+
+
+@keyframes bounce_loadingProgressG {
+    0% {
+        margin-left: -243px;
+    }
+
+    100% {
+        margin-left: 243px;
+    }
+}
+
+@-o-keyframes bounce_loadingProgressG {
+    0% {
+        margin-left: -243px;
+    }
+
+    100% {
+        margin-left: 243px;
+    }
+}
+
+@-ms-keyframes bounce_loadingProgressG {
+    0% {
+        margin-left: -243px;
+    }
+
+    100% {
+        margin-left: 243px;
+    }
+}
+
+@-webkit-keyframes bounce_loadingProgressG {
+    0% {
+        margin-left: -243px;
+    }
+
+    100% {
+        margin-left: 243px;
+    }
+}
+
+@-moz-keyframes bounce_loadingProgressG {
+    0% {
+        margin-left: -243px;
+    }
+
+    100% {
+        margin-left: 243px;
+    }
+}
+
+.toogleContainer{
+    display: flex;
+    width: 100%;
+    height: 50px;
+    padding: 1rem;
+    border-radius: 4px;
+    border: 1px solid #eee;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.toogleItem p
+{
+    font-weight: 500;
+    margin-right: 1rem;
+}
+
+.toogleItem
+{
+    display: flex;
+    align-items: flex-end;
+}
+
+.toogleItem2
+{
+    display: flex;
+    font-weight: 500;
+    margin-right: 1rem;
+    align-items: center;
+}
+
+.toogleItem2 button{
+    text-decoration: underline;
+    border: 1px solid #fff;
+    background-color: #fff;
+}
+
+.form-switch {
+    display: inline-block;
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
+  }
+  
+  .form-switch i {
+    position: relative;
+    display: inline-block;
+    margin-right: .5rem;
+    width: 46px;
+    height: 26px;
+    background-color: #e6e6e6;
+    border-radius: 23px;
+    vertical-align: text-bottom;
+    transition: all 0.3s linear;
+  }
+  
+  .form-switch i::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 42px;
+    height: 22px;
+    background-color: #fff;
+    border-radius: 11px;
+    transform: translate3d(2px, 2px, 0) scale3d(1, 1, 1);
+    transition: all 0.25s linear;
+  }
+  
+  .form-switch i::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 22px;
+    height: 22px;
+    background-color: #fff;
+    border-radius: 11px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.24);
+    transform: translate3d(2px, 2px, 0);
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .form-switch:active i::after {
+    width: 28px;
+    transform: translate3d(2px, 2px, 0);
+  }
+  
+  .form-switch:active input:checked + i::after { transform: translate3d(16px, 2px, 0); }
+  
+  .form-switch input { display: none; }
+  
+  .form-switch input:checked + i { background-color:#1194f6; }
+  
+  .form-switch input:checked + i::before { transform: translate3d(18px, 2px, 0) scale3d(0, 0, 0); }
+  
+  .form-switch input:checked + i::after { transform: translate3d(22px, 2px, 0); }
+
+  .hiddenOP{
+    display: none;
+  }
