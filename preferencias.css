@@ -116,6 +116,24 @@ body {
     margin-bottom: 17px;
 }
 
+.labelPreferences {
+    display: flex;
+}
+
+.liPreferences {
+    display: flex;
+}
+
+.labelText{
+    margin-left: 14px;
+}
+
+.labelText button{
+    color: #1194f6;
+    background-color: #fff;
+    border: none;
+    text-decoration: underline;
+}
 
 .stepsContainer {
     display: flex;

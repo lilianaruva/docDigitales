@@ -4,7 +4,7 @@
 
 <head>
   <link href="togglebtn.css" rel="stylesheet" />
- 
+
   <style data-tippy-stylesheet="">
     .tippy-tooltip[data-animation="fade"][data-state="hidden"] {
       opacity: 0;
@@ -14567,983 +14567,932 @@
           </div>
           <!--PREFERENCIAS-->
           <div class="tab-pane" id="tabs-config-preferencias">
-            <div class="">
-              <div class="">
-                <div class="">
-                  <!--COLUMN NAVBAR-->
-                  <div class="tab">
-                    <button class="tablinks" onclick="openTab(event, 'PreferenciasT')" id="defaultOpen">
-                      <svg xmlns="http://www.w3.org/2000/svg" height="15px" viewBox="0 0 24 24" width="15px" fill="#000000"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M19.43 12.98c.04-.32.07-.64.07-.98 0-.34-.03-.66-.07-.98l2.11-1.65c.19-.15.24-.42.12-.64l-2-3.46c-.09-.16-.26-.25-.44-.25-.06 0-.12.01-.17.03l-2.49 1c-.52-.4-1.08-.73-1.69-.98l-.38-2.65C14.46 2.18 14.25 2 14 2h-4c-.25 0-.46.18-.49.42l-.38 2.65c-.61.25-1.17.59-1.69.98l-2.49-1c-.06-.02-.12-.03-.18-.03-.17 0-.34.09-.43.25l-2 3.46c-.13.22-.07.49.12.64l2.11 1.65c-.04.32-.07.65-.07.98 0 .33.03.66.07.98l-2.11 1.65c-.19.15-.24.42-.12.64l2 3.46c.09.16.26.25.44.25.06 0 .12-.01.17-.03l2.49-1c.52.4 1.08.73 1.69.98l.38 2.65c.03.24.24.42.49.42h4c.25 0 .46-.18.49-.42l.38-2.65c.61-.25 1.17-.59 1.69-.98l2.49 1c.06.02.12.03.18.03.17 0 .34-.09.43-.25l2-3.46c.12-.22.07-.49-.12-.64l-2.11-1.65zm-1.98-1.71c.04.31.05.52.05.73 0 .21-.02.43-.05.73l-.14 1.13.89.7 1.08.84-.7 1.21-1.27-.51-1.04-.42-.9.68c-.43.32-.84.56-1.25.73l-1.06.43-.16 1.13-.2 1.35h-1.4l-.19-1.35-.16-1.13-1.06-.43c-.43-.18-.83-.41-1.23-.71l-.91-.7-1.06.43-1.27.51-.7-1.21 1.08-.84.89-.7-.14-1.13c-.03-.31-.05-.54-.05-.74s.02-.43.05-.73l.14-1.13-.89-.7-1.08-.84.7-1.21 1.27.51 1.04.42.9-.68c.43-.32.84-.56 1.25-.73l1.06-.43.16-1.13.2-1.35h1.39l.19 1.35.16 1.13 1.06.43c.43.18.83.41 1.23.71l.91.7 1.06-.43 1.27-.51.7 1.21-1.07.85-.89.7.14 1.13zM12 8c-2.21 0-4 1.79-4 4s1.79 4 4 4 4-1.79 4-4-1.79-4-4-4zm0 6c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2z"/></svg>
-                      Preferencias
-                    </button>
-                    <button class="tablinks" onclick="openTab(event, 'Correo')">
-                      <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#000000"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M22 6c0-1.1-.9-2-2-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6zm-2 0l-8 5-8-5h16zm0 12H4V8l8 5 8-5v10z"/></svg>
-                      Correo
-                    </button>
-                    <button class="tablinks" onclick="openTab(event, 'Logo')">
-                      <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#000000"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M19 5v14H5V5h14m0-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-4.86 8.86l-3 3.87L9 13.14 6 17h12l-3.86-5.14z"/></svg>
-                      Logo
-                    </button>
-                    <button class="tablinks" onclick="openTab(event, 'PagosEnLinea')">
-                      <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#000000"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M20 4H4c-1.11 0-1.99.89-1.99 2L2 18c0 1.11.89 2 2 2h16c1.11 0 2-.89 2-2V6c0-1.11-.89-2-2-2zm0 14H4v-6h16v6zm0-10H4V6h16v2z"/></svg>
-                      Pagos en Linea
-                    </button>
-                    <button class="tablinks" onclick="openTab(event, 'Notificaciones')">
-                      <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#000000"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M12 22c1.1 0 2-.9 2-2h-4c0 1.1.9 2 2 2zm6-6v-5c0-3.07-1.63-5.64-4.5-6.32V4c0-.83-.67-1.5-1.5-1.5s-1.5.67-1.5 1.5v.68C7.64 5.36 6 7.92 6 11v5l-2 2v1h16v-1l-2-2zm-2 1H8v-6c0-2.48 1.51-4.5 4-4.5s4 2.02 4 4.5v6z"/></svg>
-                      Notificaciones
-                    </button>
-                  </div>
-                  <!--PREFERENCIAS-->
-                  <div id="PreferenciasT" class="tabcontent">
-                            <p style="
-                                  font-size: 16px;
-                                  font-weight: bold;
-                                  color: #444851;
-                                ">
-                              PREFERENCIAS
-                            </p>
-                            <br />
-                              <form id="edit_empresas_preferencias_144"
-                                action="https://sistema.docdigitales.com/admin/empresas/191/preferencias/144"
-                                accept-charset="UTF-8" method="post">
-                                <input name="utf8" type="hidden" value="✓" /><input type="hidden" name="_method"
-                                  value="patch" /><input type="hidden" name="authenticity_token"
-                                  value="9SHyAnNJuO+8oBDNeOI8vHj7vv5b8z3OqKtr6qZawztvzA9wTETz+BrXU0cur6FQP0kMV5pvaa1jWYKliuwYCw==" />
-                                <div class="">
-                                  <div class="">
-                                    <!-- Título Ingreso -->
-                                    <div class="formPreferences">
-                                          <p class="" for="titulo_ingreso" style="
-                                                font-weight: 500;
-                                                color: #444851;
-                                                margin-bottom: 1rem;
-                                              ">
-                                            Título Ingreso
-                                          </p>
-                                            <input class="inputTextPreferences" type="text" name="empresas_preferencias[titulo_ingreso]"
-                                              id="empresas_preferencias_titulo_ingreso" style="height: 45px"
-                                              placeholder="Factura" />
-                                            <span class="icon_info" style="margin-top: 8px"
-                                              title="Este es el título que aparecerá por default en sus facturas impresas."></span>
-                                    </div>
-                                    <!-- Título Egreso -->
-                                    <div class="form-group">
-                                      <div class="row">
-                                        <div class="control-group">
-                                          <p class="col-md-12 control-label" for="titulo_egreso" style="
-                                                font-weight: 500;
-                                                color: #444851;
-                                                margin-bottom: 1rem;
-                                              ">
-                                            Título Egreso
-                                          </p>
-                                          <div class="col-md-10">
-                                            <input class="
-                                                  form-control
-                                                  input-xlarge
-                                                " type="text" name="empresas_preferencias[titulo_egreso]"
-                                              id="empresas_preferencias_titulo_egreso" style="height: 45px"
-                                              placeholder="Nota de credito" />
-                                          </div>
-                                          <div class="col-md-1 col-question">
-                                            <span class="icono_info"
-                                              title="Este es el título que aparecerá por default en sus facturas impresas."
-                                              style="margin-top: 8px"></span>
-                                          </div>
-                                        </div>
-                                      </div>
-                                    </div>
-                                    <!-- Título Traslado -->
-                                    <div class="form-group">
-                                      <div class="row">
-                                        <div class="control-group">
-                                          <p class="col-md-12 control-label" for="titulo_traslado" style="
-                                                font-weight: 500;
-                                                color: #444851;
-                                                margin-bottom: 1rem;
-                                              ">
-                                            Título Traslado
-                                          </p>
-                                          <div class="col-md-10">
-                                            <input class="
-                                                  form-control
-                                                  input-xlarge
-                                                " type="text" name="empresas_preferencias[titulo_traslado]"
-                                              id="empresas_preferencias_titulo_traslado" style="height: 45px"
-                                              placeholder="Traslado" />
-                                          </div>
-                                          <div class="col-md-1 col-question">
-                                            <span class="icono_info"
-                                              title="Este es el título que aparecerá por default en sus facturas impresas."
-                                              style="margin-top: 8px"></span>
-                                          </div>
-                                        </div>
-                                      </div>
-                                    </div>
-                                    <!-- Resultados por Pagina -->
-                                    <div class="form-group">
-                                      <div class="row">
-                                        <div class="control-group">
-                                          <p class="col-md-12 control-label" for="lineas_pagina" style="
-                                                font-weight: 500;
-                                                color: #444851;
-                                                margin-bottom: 1rem;
-                                              ">
-                                            Resultados por Página:
-                                          </p>
-                                          <div class="col-md-10">
-                                            <select class="form-control" name="empresas_preferencias[lineas_pagina]"
-                                              id="empresas_preferencias_lineas_pagina" style="height: 45px">
-                                              <option selected="selected" value="25">
-                                                25
-                                              </option>
-                                              <option value="50">50</option>
-                                              <option value="75">75</option>
-                                              <option value="100">100</option>
-                                            </select>
-                                          </div>
-                                          <div class="col-md-1 col-question">
-                                            <span class="icono_info" style="margin-top: 8px"
-                                              title="Este es el número de resultados por página que se mostrarán en los listados."></span>
-                                          </div>
-                                        </div>
-                                      </div>
-                                    </div>
+            <!--COLUMN NAVBAR-->
+            <div class="tab">
+              <button class="tablinks" onclick="openTab(event, 'PreferenciasT')" id="defaultOpen">
+                <svg xmlns="http://www.w3.org/2000/svg" height="15px" viewBox="0 0 24 24" width="15px" fill="#000000">
+                  <path d="M0 0h24v24H0V0z" fill="none" />
+                  <path
+                    d="M19.43 12.98c.04-.32.07-.64.07-.98 0-.34-.03-.66-.07-.98l2.11-1.65c.19-.15.24-.42.12-.64l-2-3.46c-.09-.16-.26-.25-.44-.25-.06 0-.12.01-.17.03l-2.49 1c-.52-.4-1.08-.73-1.69-.98l-.38-2.65C14.46 2.18 14.25 2 14 2h-4c-.25 0-.46.18-.49.42l-.38 2.65c-.61.25-1.17.59-1.69.98l-2.49-1c-.06-.02-.12-.03-.18-.03-.17 0-.34.09-.43.25l-2 3.46c-.13.22-.07.49.12.64l2.11 1.65c-.04.32-.07.65-.07.98 0 .33.03.66.07.98l-2.11 1.65c-.19.15-.24.42-.12.64l2 3.46c.09.16.26.25.44.25.06 0 .12-.01.17-.03l2.49-1c.52.4 1.08.73 1.69.98l.38 2.65c.03.24.24.42.49.42h4c.25 0 .46-.18.49-.42l.38-2.65c.61-.25 1.17-.59 1.69-.98l2.49 1c.06.02.12.03.18.03.17 0 .34-.09.43-.25l2-3.46c.12-.22.07-.49-.12-.64l-2.11-1.65zm-1.98-1.71c.04.31.05.52.05.73 0 .21-.02.43-.05.73l-.14 1.13.89.7 1.08.84-.7 1.21-1.27-.51-1.04-.42-.9.68c-.43.32-.84.56-1.25.73l-1.06.43-.16 1.13-.2 1.35h-1.4l-.19-1.35-.16-1.13-1.06-.43c-.43-.18-.83-.41-1.23-.71l-.91-.7-1.06.43-1.27.51-.7-1.21 1.08-.84.89-.7-.14-1.13c-.03-.31-.05-.54-.05-.74s.02-.43.05-.73l.14-1.13-.89-.7-1.08-.84.7-1.21 1.27.51 1.04.42.9-.68c.43-.32.84-.56 1.25-.73l1.06-.43.16-1.13.2-1.35h1.39l.19 1.35.16 1.13 1.06.43c.43.18.83.41 1.23.71l.91.7 1.06-.43 1.27-.51.7 1.21-1.07.85-.89.7.14 1.13zM12 8c-2.21 0-4 1.79-4 4s1.79 4 4 4 4-1.79 4-4-1.79-4-4-4zm0 6c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2z" />
+                </svg>
+                Preferencias
+              </button>
+              <button class="tablinks" onclick="openTab(event, 'Correo')">
+                <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#000000">
+                  <path d="M0 0h24v24H0V0z" fill="none" />
+                  <path
+                    d="M22 6c0-1.1-.9-2-2-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6zm-2 0l-8 5-8-5h16zm0 12H4V8l8 5 8-5v10z" />
+                </svg>
+                Correo
+              </button>
+              <button class="tablinks" onclick="openTab(event, 'Logo')">
+                <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#000000">
+                  <path d="M0 0h24v24H0V0z" fill="none" />
+                  <path
+                    d="M19 5v14H5V5h14m0-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-4.86 8.86l-3 3.87L9 13.14 6 17h12l-3.86-5.14z" />
+                </svg>
+                Logo
+              </button>
+              <button class="tablinks" onclick="openTab(event, 'PagosEnLinea')">
+                <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#000000">
+                  <path d="M0 0h24v24H0V0z" fill="none" />
+                  <path
+                    d="M20 4H4c-1.11 0-1.99.89-1.99 2L2 18c0 1.11.89 2 2 2h16c1.11 0 2-.89 2-2V6c0-1.11-.89-2-2-2zm0 14H4v-6h16v6zm0-10H4V6h16v2z" />
+                </svg>
+                Pagos en Linea
+              </button>
+              <button class="tablinks" onclick="openTab(event, 'Notificaciones')">
+                <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#000000">
+                  <path d="M0 0h24v24H0V0z" fill="none" />
+                  <path
+                    d="M12 22c1.1 0 2-.9 2-2h-4c0 1.1.9 2 2 2zm6-6v-5c0-3.07-1.63-5.64-4.5-6.32V4c0-.83-.67-1.5-1.5-1.5s-1.5.67-1.5 1.5v.68C7.64 5.36 6 7.92 6 11v5l-2 2v1h16v-1l-2-2zm-2 1H8v-6c0-2.48 1.51-4.5 4-4.5s4 2.02 4 4.5v6z" />
+                </svg>
+                Notificaciones
+              </button>
+            </div>
+            <!--PREFERENCIAS-->
+            <div id="PreferenciasT" class="tabcontent">
+              <p style="font-size: 16px; font-weight: bold; color: #444851;">
+                PREFERENCIAS
+              </p>
+              <br />
+              <form id="edit_empresas_preferencias_144"
+                action="https://sistema.docdigitales.com/admin/empresas/191/preferencias/144" accept-charset="UTF-8"
+                method="post">
+                <input name="utf8" type="hidden" value="✓" /><input type="hidden" name="_method" value="patch" /><input
+                  type="hidden" name="authenticity_token"
+                  value="9SHyAnNJuO+8oBDNeOI8vHj7vv5b8z3OqKtr6qZawztvzA9wTETz+BrXU0cur6FQP0kMV5pvaa1jWYKliuwYCw==" />
+                <!-- Título Ingreso -->
+                <div class="formPreferences">
+                  <p for="titulo_ingreso" style="font-weight: 500; color: #444851;">
+                    Título Ingreso
+                  </p>
+                  <input class="inputTextPreferences" type="text" name="empresas_preferencias[titulo_ingreso]"
+                    id="empresas_preferencias_titulo_ingreso" style="height: 45px" placeholder="Factura" />
+                  <span class="icon_info" style="margin-top: 8px"
+                    title="Este es el título que aparecerá por default en sus facturas impresas."></span>
+                </div>
+                <!-- Título Egreso -->
+                <div class="formPreferences">
+                  <p for="titulo_ingreso" style="font-weight: 500; color: #444851;">
+                    Título Egreso
+                  </p>
+                  <input class="inputTextPreferences" type="text" name="empresas_preferencias[titulo_egreso]"
+                    id="empresas_preferencias_titulo_egreso" style="height: 45px" placeholder="Nota de credito" />
+                  <span class="icon_info" style="margin-top: 8px"
+                    title="Este es el título que aparecerá por default en sus facturas impresas."></span>
+                </div>
+                <!-- Título Traslado -->
+                <div class="formPreferences">
+                  <p for="titulo_ingreso" style="font-weight: 500; color: #444851;">
+                    Título Traslado
+                  </p>
+                  <input class="inputTextPreferences" type="text" name="empresas_preferencias[titulo_traslado]"
+                    id="empresas_preferencias_titulo_traslado" style="height: 45px" placeholder="Traslado" />
+                  <span class="icon_info" style="margin-top: 8px"
+                    title="Este es el título que aparecerá por default en sus facturas impresas."></span>
+                </div>
+                <!-- Resultados por Pagina -->
+                <div class="formPreferences">
+                  <p for="lineas_pagina" style="font-weight: 500; color: #444851;">
+                    Resultados por Página:
+                  </p>
+                  <select class="inputTextPreferences" name="empresas_preferencias[lineas_pagina]"
+                    id="empresas_preferencias_lineas_pagina" style="padding-right: 18px;">
+                    <option selected="selected" value="25">
+                      25
+                    </option>
+                    <option value="50">50</option>
+                    <option value="75">75</option>
+                    <option value="100">100</option>
+                  </select>
+                  <span class="icono_info" style="margin-top: 8px"
+                    title="Este es el número de resultados por página que se mostrarán en los listados."></span>
+                </div>
 
-                                    <ul class="nav nav-list">
-                                      <li>
-                                        <label class="checkbox">
-                                          <input name="empresas_preferencias[enviar_link_directo]" type="hidden"
-                                            value="0" /><input type="checkbox" value="1" checked="checked"
-                                            name="empresas_preferencias[enviar_link_directo]"
-                                            id="empresas_preferencias_enviar_link_directo" />
-                                          <span>
-                                            <p style="
-                                                  font-size: 14px;
-                                                  font-weight: bold;
-                                                  color: #444851;
-                                                  margin-bottom: 0;
-                                                ">
-                                              Enviar Link directo
-                                              (Recomendado)
-                                            </p>
-                                            Permite a tu cliente ver las
-                                            facturas, recepciones de pagos y
-                                            cotizaciones
-                                          </span>
-                                        </label>
-                                        <button id="link-directo" type="button" class="btn_accion_ter"
-                                          data-toggle="modal" data-target="#link-directo-modal"
-                                          style="padding-left: 0px">
-                                          dando click a un link en su correo
-                                        </button>
-                                      </li>
-                                      <li>
-                                        <label class="checkbox">
-                                          <input name="empresas_preferencias[enviar_factura_recurrente]" type="hidden"
-                                            value="0" /><input type="checkbox" value="1"
-                                            name="empresas_preferencias[enviar_factura_recurrente]"
-                                            id="empresas_preferencias_enviar_factura_recurrente" /><span
-                                            class="text-normal">
-                                            <p style="
-                                                  font-size: 14px;
-                                                  font-weight: bold;
-                                                  color: #444851;
-                                                  margin-bottom: 0;
-                                                ">
-                                              Enviar automáticamente las
-                                              facturas recurrentes.
-                                            </p>
-                                            Las facturas recurrentes se envían
-                                            automáticamente a tu cliente
-                                            cuando son creadas.
-                                          </span>
-                                        </label>
-                                      </li>
-                                      <li>
-                                        <label class="checkbox">
-                                          <input name="empresas_preferencias[asignar_cliente]" type="hidden"
-                                            value="0" /><input type="checkbox" value="1"
-                                            name="empresas_preferencias[asignar_cliente]"
-                                            id="empresas_preferencias_asignar_cliente" /><span class="text-normal">
-                                            <p style="
-                                                  font-size: 14px;
-                                                  font-weight: bold;
-                                                  color: #444851;
-                                                  margin-bottom: 0;
-                                                ">
-                                              Asignación de Clientes
-                                            </p>
+                <ul>
+                  <li>
+                    <label class="labelPreferences">
+                      <input name="empresas_preferencias[enviar_link_directo]" type="hidden" value="0" /><input
+                        type="checkbox" value="1" checked="checked" name="empresas_preferencias[enviar_link_directo]"
+                        id="empresas_preferencias_enviar_link_directo" />
+                      <div class="labelText">
+                        <p style="
+                              font-size: 14px;
+                              font-weight: bold;
+                              color: #444851;
+                              margin-bottom: 0;
+                            ">
+                          Enviar Link directo
+                          (Recomendado)
+                        </p>
+                        Permite a tu cliente ver las
+                        facturas, recepciones de pagos y
+                        cotizaciones
+                        <button>
+                          Ver Beneficios
+                        </button>
+                      </div>
+                    </label>
 
-                                            Los clientes nuevos creados serán
-                                            visibles para todo el staff y el
-                                            staff nuevo creado podra ver todos
-                                            los clientes.
-                                          </span>
-                                        </label>
-                                      </li>
-                                    </ul>
-                                  </div>
-                                </div>
-                              </form>
-                              <!-- Modal -->
-                              <div class="modal fade" id="link-directo-modal" tabindex="-1" role="dialog"
-                                aria-labelledby="myModalLabel">
-                                <div class="modal-dialog" role="document">
-                                  <div class="modal-content">
-                                    <div class="modal-header">
-                                      <button type="button" class="icono_cerrar_modal" data-dismiss="modal"
-                                        aria-label="Close"></button>
-                                    </div>
-                                    <div class="modal-body">
-                                      <h4><strong>Beneficios:</strong></h4>
-                                      <ul style="padding-left: 7px">
-                                        <li>
-                                          - El correo es sin attachment para
-                                          que siempre llegue.
-                                        </li>
-                                        <li>
-                                          - Sabrás cuando tu cliente vea su
-                                          factura.
-                                        </li>
-                                        <li>
-                                          - Será más facil para tu cliente
-                                          imprimir y pagar las facturas.
-                                        </li>
-                                        <li>- Lucirás más profesional.</li>
-                                      </ul>
-                                      <br />
-                                      <h4><strong>Como Funciona:</strong></h4>
-                                      <ul style="padding-left: 7px">
-                                        <li>
-                                          - Cuando envias el link directo, tu
-                                          cliente recibe un correo
-                                          electrónico, el cual puede ser
-                                          editado. Por ejemplo:
-                                        </li>
-                                        <li>
-                                          <ul style="
+                  </li>
+                  <li>
+                    <label class="labelPreferences">
+                      <input name="empresas_preferencias[enviar_factura_recurrente]" type="hidden" value="0" /><input
+                        type="checkbox" value="1" name="empresas_preferencias[enviar_factura_recurrente]"
+                        id="empresas_preferencias_enviar_factura_recurrente" /><span class="text-normal">
+                        <div class="labelText">
+                          <p style="
+                              font-size: 14px;
+                              font-weight: bold;
+                              color: #444851;
+                              margin-bottom: 0;
+                            ">
+                            Enviar automáticamente las
+                            facturas recurrentes.
+                          </p>
+                          Las facturas recurrentes se envían
+                          automáticamente a tu cliente
+                          cuando son creadas.
+                        </div>
+
+                      </span>
+                    </label>
+                  </li>
+                  <li>
+                    <label class="labelPreferences">
+                      <input name="empresas_preferencias[asignar_cliente]" type="hidden" value="0" /><input
+                        type="checkbox" value="1" name="empresas_preferencias[asignar_cliente]"
+                        id="empresas_preferencias_asignar_cliente" />
+                      <span class="text-normal">
+                        <div class="labelText">
+                          <p style="
+  font-size: 14px;
+  font-weight: bold;
+  color: #444851;
+  margin-bottom: 0;
+">
+                            Asignación de Clientes
+                          </p>
+
+                          Los clientes nuevos creados serán
+                          visibles para todo el staff y el
+                          staff nuevo creado podra ver todos
+                          los clientes.
+                        </div>
+
+                      </span>
+                    </label>
+                  </li>
+                </ul>
+              </form>
+              <!-- Modal -->
+              <div class="modal fade" id="link-directo-modal" tabindex="-1" role="dialog"
+                aria-labelledby="myModalLabel">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <button type="button" class="icono_cerrar_modal" data-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <h4><strong>Beneficios:</strong></h4>
+                      <ul style="padding-left: 7px">
+                        <li>
+                          - El correo es sin attachment para
+                          que siempre llegue.
+                        </li>
+                        <li>
+                          - Sabrás cuando tu cliente vea su
+                          factura.
+                        </li>
+                        <li>
+                          - Será más facil para tu cliente
+                          imprimir y pagar las facturas.
+                        </li>
+                        <li>- Lucirás más profesional.</li>
+                      </ul>
+                      <br />
+                      <h4><strong>Como Funciona:</strong></h4>
+                      <ul style="padding-left: 7px">
+                        <li>
+                          - Cuando envias el link directo, tu
+                          cliente recibe un correo
+                          electrónico, el cual puede ser
+                          editado. Por ejemplo:
+                        </li>
+                        <li>
+                          <ul style="
                                                 padding-left: 30px;
                                                 padding-top: 18px;
                                               ">
-                                            <li>
-                                              De: factura@docdigitales.com
-                                            </li>
-                                            <li>Enviado:</li>
-                                            <li>Mensaje:</li>
-                                            <li>
-                                              Usted ha recibido una factura de
-                                              "compañia". Para visualizarla
-                                              solo de click al siguiente link:
-                                            </li>
-                                            <li>
-                                              https://sistema.docdigitales.com/factura18.html
-                                            </li>
-                                          </ul>
-                                        </li>
-                                      </ul>
-                                      <p style="padding-left: 7px">
-                                        Una vez que el cliente da click al
-                                        link directo, tu cliente podra
-                                        imprimir la factura desde ahí y podrás
-                                        revisar cuando vio su factura, lo cual
-                                        ademas:
-                                      </p>
-                                      <ul style="padding-left: 7px">
-                                        <li>
-                                          - Provoca que tu cliente pague mas
-                                          rápido.
-                                        </li>
-                                        <li>
-                                          - Puede ver su historial de
-                                          facturas.
-                                        </li>
-                                        <li>
-                                          - Puede aceptar cotizaciones que le
-                                          envias.
-                                        </li>
-                                      </ul>
-                                    </div>
-                                    <div class="modal-footer"></div>
-                                  </div>
-                                </div>
-                              </div>
+                            <li>
+                              De: factura@docdigitales.com
+                            </li>
+                            <li>Enviado:</li>
+                            <li>Mensaje:</li>
+                            <li>
+                              Usted ha recibido una factura de
+                              "compañia". Para visualizarla
+                              solo de click al siguiente link:
+                            </li>
+                            <li>
+                              https://sistema.docdigitales.com/factura18.html
+                            </li>
+                          </ul>
+                        </li>
+                      </ul>
+                      <p style="padding-left: 7px">
+                        Una vez que el cliente da click al
+                        link directo, tu cliente podra
+                        imprimir la factura desde ahí y podrás
+                        revisar cuando vio su factura, lo cual
+                        ademas:
+                      </p>
+                      <ul style="padding-left: 7px">
+                        <li>
+                          - Provoca que tu cliente pague mas
+                          rápido.
+                        </li>
+                        <li>
+                          - Puede ver su historial de
+                          facturas.
+                        </li>
+                        <li>
+                          - Puede aceptar cotizaciones que le
+                          envias.
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="modal-footer"></div>
                   </div>
-                  <!--CORREO-->
-                  <div id="Correo" class="tabcontent">
-                    <div class="container-fluid">
-                      <div class="row">
-                        <div class="col-md-12">
-                          <p style="
+                </div>
+              </div>
+            </div>
+            <!--CORREO-->
+            <div id="Correo" class="tabcontent">
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="col-md-12">
+                    <p style="
                                 font-size: 16px;
                                 font-weight: bold;
                                 color: #444851;
                               ">
-                            CORREO
-                          </p>
-                          <p>
-                            Estos son los correos electronicos que envias a
-                            tus clientes.
-                          </p>
-                          <div class="container-fluid">
-                            <form class="
+                      CORREO
+                    </p>
+                    <p>
+                      Estos son los correos electronicos que envias a
+                      tus clientes.
+                    </p>
+                    <div class="container-fluid">
+                      <form class="
                                   form-empresas-correos
                                   bv-form
                                   form-horizontal
                                 " id="new_empresas_correos"
-                              action="https://sistema.docdigitales.com/admin/empresas/191/correos"
-                              accept-charset="UTF-8" method="post" novalidate="novalidate">
-                              <button type="submit" class="bv-hidden-submit"
-                                style="display: none; width: 0px; height: 0px"></button><input name="utf8" type="hidden"
-                                value="✓" /><input type="hidden" name="authenticity_token"
-                                value="9SHyAnNJuO+8oBDNeOI8vHj7vv5b8z3OqKtr6qZawztvzA9wTETz+BrXU0cur6FQP0kMV5pvaa1jWYKliuwYCw==" />
-                              <div class="form-group">
-                                <div class="row">
-                                  <div class="control-group">
-                                    <p class="col-md-12 control-label" for="nombre" style="
+                        action="https://sistema.docdigitales.com/admin/empresas/191/correos" accept-charset="UTF-8"
+                        method="post" novalidate="novalidate">
+                        <button type="submit" class="bv-hidden-submit"
+                          style="display: none; width: 0px; height: 0px"></button><input name="utf8" type="hidden"
+                          value="✓" /><input type="hidden" name="authenticity_token"
+                          value="9SHyAnNJuO+8oBDNeOI8vHj7vv5b8z3OqKtr6qZawztvzA9wTETz+BrXU0cur6FQP0kMV5pvaa1jWYKliuwYCw==" />
+                        <div class="form-group">
+                          <div class="row">
+                            <div class="control-group">
+                              <p class="col-md-12 control-label" for="nombre" style="
                                           font-weight: 500;
                                           color: #444851;
                                           margin-bottom: 1rem;
                                         ">
-                                      Remitente
-                                    </p>
-                                    <div class="col-md-12">
-                                      <input class="form-control input-xlarge" type="text"
-                                        name="empresas_correos[nombre]" id="empresas_correos_nombre"
-                                        placeholder="Remitente" style="height: 45px" />
-                                    </div>
-                                  </div>
-                                </div>
+                                Remitente
+                              </p>
+                              <div class="col-md-12">
+                                <input class="form-control input-xlarge" type="text" name="empresas_correos[nombre]"
+                                  id="empresas_correos_nombre" placeholder="Remitente" style="height: 45px" />
                               </div>
+                            </div>
+                          </div>
+                        </div>
 
-                              <div class="form-group">
-                                <div class="row">
-                                  <div class="control-group">
-                                    <p class="col-md-12 control-label" for="correo" style="
+                        <div class="form-group">
+                          <div class="row">
+                            <div class="control-group">
+                              <p class="col-md-12 control-label" for="correo" style="
                                           font-weight: 500;
                                           color: #444851;
                                           margin-bottom: 1rem;
                                         ">
-                                      Correo Remitente
-                                    </p>
-                                    <div class="col-md-12">
-                                      <input class="form-control input-xlarge" type="text"
-                                        name="empresas_correos[correo]" id="empresas_correos_correo"
-                                        data-bv-field="empresa_correo_remitente" placeholder="remitente@gmail.com"
-                                        style="height: 45px" />
-                                      <small class="help-block" data-bv-validator="emailAddress"
-                                        data-bv-for="empresa_correo_remitente" data-bv-result="NOT_VALIDATED"
-                                        style="display: none">* Favor de escribir un correo
-                                        electronico.</small>
-                                    </div>
-                                  </div>
-                                </div>
+                                Correo Remitente
+                              </p>
+                              <div class="col-md-12">
+                                <input class="form-control input-xlarge" type="text" name="empresas_correos[correo]"
+                                  id="empresas_correos_correo" data-bv-field="empresa_correo_remitente"
+                                  placeholder="remitente@gmail.com" style="height: 45px" />
+                                <small class="help-block" data-bv-validator="emailAddress"
+                                  data-bv-for="empresa_correo_remitente" data-bv-result="NOT_VALIDATED"
+                                  style="display: none">* Favor de escribir un correo
+                                  electronico.</small>
                               </div>
+                            </div>
+                          </div>
+                        </div>
 
-                              <div class="form-group">
-                                <div class="row">
-                                  <div class="correoItemGroup">
-                                    <div class="correoItemGroupLeft">
-                                      <p for="correo" style="
+                        <div class="form-group">
+                          <div class="row">
+                            <div class="correoItemGroup">
+                              <div class="correoItemGroupLeft">
+                                <p for="correo" style="
                                             font-weight: 500;
                                             color: #444851;
                                             margin-bottom: 0rem;
                                           ">
-                                        Nueva Factura
-                                      </p>
-                                      <p>
-                                        Cuando se envía una nueva factura a tu
-                                        cliente, edita los datos que quieres
-                                        que aparezcan en tu correo electrónico
-                                        enviado.
-                                      </p>
-                                    </div>
-                                    <div class="correoItemGroupRight">
-                                      <button id="nueva-factura-link" type="button" class="btn_accion_ter"
-                                        data-tipo="1">
-                                        Editar Template
-                                      </button>
-                                    </div>
-                                  </div>
-                                </div>
+                                  Nueva Factura
+                                </p>
+                                <p>
+                                  Cuando se envía una nueva factura a tu
+                                  cliente, edita los datos que quieres
+                                  que aparezcan en tu correo electrónico
+                                  enviado.
+                                </p>
                               </div>
+                              <div class="correoItemGroupRight">
+                                <button id="nueva-factura-link" type="button" class="btn_accion_ter" data-tipo="1">
+                                  Editar Template
+                                </button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
 
-                              <div class="form-group">
-                                <div class="row">
-                                  <div class="correoItemGroup">
-                                    <div class="correoItemGroupLeft">
-                                      <p for="correo" style="
+                        <div class="form-group">
+                          <div class="row">
+                            <div class="correoItemGroup">
+                              <div class="correoItemGroupLeft">
+                                <p for="correo" style="
                                             font-weight: 500;
                                             color: #444851;
                                             margin-bottom: 0rem;
                                           ">
-                                        Nueva Recepción
-                                      </p>
-                                      <p>
-                                        Cuando se envía una nueva recepción de
-                                        pago a tu cliente, edita los datos que
-                                        quieres que aparezcan en tu correo
-                                        electrónico enviado.
-                                      </p>
-                                    </div>
-                                    <div class="correoItemGroupRight">
-                                      <button id="nueva-recepcion-link" type="button" class="btn_accion_ter"
-                                        data-tipo="5">
-                                        Editar Template
-                                      </button>
-                                    </div>
-                                  </div>
-                                </div>
+                                  Nueva Recepción
+                                </p>
+                                <p>
+                                  Cuando se envía una nueva recepción de
+                                  pago a tu cliente, edita los datos que
+                                  quieres que aparezcan en tu correo
+                                  electrónico enviado.
+                                </p>
                               </div>
+                              <div class="correoItemGroupRight">
+                                <button id="nueva-recepcion-link" type="button" class="btn_accion_ter" data-tipo="5">
+                                  Editar Template
+                                </button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
 
-                              <div class="form-group">
-                                <div class="row">
-                                  <div class="correoItemGroup">
-                                    <div class="correoItemGroupLeft">
-                                      <p for="correo" style="
+                        <div class="form-group">
+                          <div class="row">
+                            <div class="correoItemGroup">
+                              <div class="correoItemGroupLeft">
+                                <p for="correo" style="
                                             font-weight: 500;
                                             color: #444851;
                                             margin-bottom: 0rem;
                                           ">
-                                        Nueva Cotización
-                                      </p>
-                                      <p>
-                                        Cuando se envía una nueva cotización a
-                                        tu cliente, edita los datos que
-                                        quieres que aparezcan en tu correo
-                                        electrónico enviado.
-                                      </p>
-                                    </div>
-                                    <div class="correoItemGroupRight">
-                                      <button id="nueva-cotizacion-link" type="button" class="btn_accion_ter"
-                                        data-tipo="2">
-                                        Editar Template
-                                      </button>
-                                    </div>
-                                  </div>
-                                </div>
+                                  Nueva Cotización
+                                </p>
+                                <p>
+                                  Cuando se envía una nueva cotización a
+                                  tu cliente, edita los datos que
+                                  quieres que aparezcan en tu correo
+                                  electrónico enviado.
+                                </p>
                               </div>
+                              <div class="correoItemGroupRight">
+                                <button id="nueva-cotizacion-link" type="button" class="btn_accion_ter" data-tipo="2">
+                                  Editar Template
+                                </button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
 
-                              <div class="form-group">
-                                <div class="row">
-                                  <div class="correoItemGroup">
-                                    <div class="correoItemGroupLeft">
-                                      <p for="correo" style="
+                        <div class="form-group">
+                          <div class="row">
+                            <div class="correoItemGroup">
+                              <div class="correoItemGroupLeft">
+                                <p for="correo" style="
                                             font-weight: 500;
                                             color: #444851;
                                             margin-bottom: 0rem;
                                           ">
-                                        Nuevo Usuario Creado
-                                      </p>
-                                      <p>
-                                        Cuando se crea un nuevo usuario de un
-                                        cliente, edita los datos que quieres
-                                        que aparezcan en tu correo electrónico
-                                        enviado.
-                                      </p>
-                                    </div>
-                                    <div class="correoItemGroupRight">
-                                      <button id="nuevo-usuario-link" type="button" class="btn_accion_ter"
-                                        data-tipo="3">
-                                        Editar Template
-                                      </button>
-                                    </div>
-                                  </div>
-                                </div>
+                                  Nuevo Usuario Creado
+                                </p>
+                                <p>
+                                  Cuando se crea un nuevo usuario de un
+                                  cliente, edita los datos que quieres
+                                  que aparezcan en tu correo electrónico
+                                  enviado.
+                                </p>
                               </div>
+                              <div class="correoItemGroupRight">
+                                <button id="nuevo-usuario-link" type="button" class="btn_accion_ter" data-tipo="3">
+                                  Editar Template
+                                </button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
 
-                              <div class="form-group">
-                                <div class="row">
-                                  <div class="correoItemGroup">
-                                    <div class="correoItemGroupLeft">
-                                      <p for="correo" style="
+                        <div class="form-group">
+                          <div class="row">
+                            <div class="correoItemGroup">
+                              <div class="correoItemGroupLeft">
+                                <p for="correo" style="
                                             font-weight: 500;
                                             color: #444851;
                                             margin-bottom: 0rem;
                                           ">
-                                        Nuevo Staff Creado
-                                      </p>
-                                      <p>
-                                        Cuando se crea un nuevo usuario del
-                                        sistema, edita los datos que quieres
-                                        que aparezcan en tu correo electrónico
-                                        enviado.
-                                      </p>
-                                    </div>
-                                    <div class="correoItemGroupRight">
-                                      <button id="nuevo-staff-link" type="button" class="btn_accion_ter" data-tipo="4">
-                                        Editar Template
-                                      </button>
-                                    </div>
-                                  </div>
-                                </div>
+                                  Nuevo Staff Creado
+                                </p>
+                                <p>
+                                  Cuando se crea un nuevo usuario del
+                                  sistema, edita los datos que quieres
+                                  que aparezcan en tu correo electrónico
+                                  enviado.
+                                </p>
                               </div>
+                              <div class="correoItemGroupRight">
+                                <button id="nuevo-staff-link" type="button" class="btn_accion_ter" data-tipo="4">
+                                  Editar Template
+                                </button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
 
-                              <hr />
+                        <hr />
 
-                              <div class="form-group">
-                                <div class="row">
-                                  <div class="control-group">
-                                    <p class="col-md-8" for="firma" style="
+                        <div class="form-group">
+                          <div class="row">
+                            <div class="control-group">
+                              <p class="col-md-8" for="firma" style="
                                           font-size: 14px;
                                           font-weight: bold;
                                           color: #444851;
                                           margin-bottom: 0rem;
                                         ">
-                                      Firma de Todos los Correos
-                                    </p>
-                                  </div>
-                                </div>
-                              </div>
+                                Firma de Todos los Correos
+                              </p>
+                            </div>
+                          </div>
+                        </div>
 
-                              <div class="form-group">
-                                <div class="row">
-                                  <div class="control-group">
-                                    <div class="col-md-12">
-                                      <textarea name="firma" id="firma" class="form-control" placeholder="Tu firma..."
-                                        wrap="off" style="overflow: auto; resize: none"></textarea>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                              <div class="row">
-                                <div class="col-md-8 col-md-offset-4 text-right">
-                                  <div class="control-group">
-                                    <div class="controls">
-                                      <input type="submit" name="commit" value="Conectar"
-                                        id="btn-guardar-preferencias-correo" class="btn_accion_prim"
-                                        style="margin-top: 10px" data-disable-with="Conectar" />
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                            </form>
-                            <!-- Modals -->
-                            <div class="row">
+                        <div class="form-group">
+                          <div class="row">
+                            <div class="control-group">
                               <div class="col-md-12">
-                                <div id="dd-configuracion-correo-2-modal" class="modal fade" tabindex="-1" role="dialog"
-                                  aria-labelledby="myModalLabel" aria-hidden="true">
-                                  <div class="modal-dialog">
-                                    <div class="modal-content" style="width: 750px">
-                                      <div class="modal-header">
-                                        <h4 id="modal-header-label">
-                                          <div id="texto_encabezado"></div>
-                                        </h4>
-                                      </div>
-                                      <div class="modal-body">
-                                        <div class="tabbable">
-                                          <div class="
+                                <textarea name="firma" id="firma" class="form-control" placeholder="Tu firma..."
+                                  wrap="off" style="overflow: auto; resize: none"></textarea>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col-md-8 col-md-offset-4 text-right">
+                            <div class="control-group">
+                              <div class="controls">
+                                <input type="submit" name="commit" value="Conectar" id="btn-guardar-preferencias-correo"
+                                  class="btn_accion_prim" style="margin-top: 10px" data-disable-with="Conectar" />
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </form>
+                      <!-- Modals -->
+                      <div class="row">
+                        <div class="col-md-12">
+                          <div id="dd-configuracion-correo-2-modal" class="modal fade" tabindex="-1" role="dialog"
+                            aria-labelledby="myModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                              <div class="modal-content" style="width: 750px">
+                                <div class="modal-header">
+                                  <h4 id="modal-header-label">
+                                    <div id="texto_encabezado"></div>
+                                  </h4>
+                                </div>
+                                <div class="modal-body">
+                                  <div class="tabbable">
+                                    <div class="
                                                 tab-content
                                                 form-horizontal
                                               ">
-                                            <div class="tab-pane active" id="empresa">
-                                              <div class="form-group">
-                                                <div class="col-md-7">
-                                                  <label class="
+                                      <div class="tab-pane active" id="empresa">
+                                        <div class="form-group">
+                                          <div class="col-md-7">
+                                            <label class="
                                                         col-md-2
                                                         control-label
                                                         no-padding-left
                                                       ">Subject:</label>
-                                                  <div id="correo_subject" contenteditable="true" class="
+                                            <div id="correo_subject" contenteditable="true" class="
                                                         form-control
                                                         input_gris
                                                       "></div>
-                                                </div>
-                                              </div>
+                                          </div>
+                                        </div>
 
-                                              <div class="form-group">
-                                                <div class="col-md-12">
-                                                  <label class="
+                                        <div class="form-group">
+                                          <div class="col-md-12">
+                                            <label class="
                                                         col-md-2
                                                         control-label
                                                         no-padding-left
                                                       ">Mensaje:</label>
-                                                  <div id="correo_mensaje" contenteditable="true" class="
+                                            <div id="correo_mensaje" contenteditable="true" class="
                                                         form-control
                                                         textarea_gris
                                                       " style="height: 200px"></div>
-                                                </div>
-                                              </div>
+                                          </div>
+                                        </div>
 
-                                              <!--dropdown variables-->
-                                              <div class="form-group">
-                                                <div class="col-md-10">
-                                                  <div class="
+                                        <!--dropdown variables-->
+                                        <div class="form-group">
+                                          <div class="col-md-10">
+                                            <div class="
                                                         col-md-4
                                                         no-padding
                                                       ">
-                                                    <label class="
+                                              <label class="
                                                           col-md-12
                                                           control-label
                                                           no-padding
                                                         " for="sucursal_default">Insertar
-                                                      Variable:</label>
-                                                    <input type="hidden" name="hdn_vars_tipo" id="hdn_vars_tipo"
-                                                      value="" />
-                                                    <select name="vars_factura_list" id="vars_factura_list" class="
+                                                Variable:</label>
+                                              <input type="hidden" name="hdn_vars_tipo" id="hdn_vars_tipo" value="" />
+                                              <select name="vars_factura_list" id="vars_factura_list" class="
                                                           form-control
                                                           input_gris
                                                           hidden
                                                         ">
-                                                      <option value="" label=" "></option>
-                                                      <option value="1">
-                                                        Numero de Factura
-                                                      </option>
-                                                      <option value="3">
-                                                        Total de la Factura
-                                                      </option>
-                                                      <option value="4">
-                                                        Nombre Empresa
-                                                      </option>
-                                                      <option value="5">
-                                                        Nombre Cliente
-                                                      </option>
-                                                      <option value="6">
-                                                        Nombre Contacto
-                                                      </option>
-                                                      <option value="25">
-                                                        Recepciones de Pago
-                                                      </option>
-                                                    </select>
-                                                    <select name="vars_cotizacion_list" id="vars_cotizacion_list" class="
+                                                <option value="" label=" "></option>
+                                                <option value="1">
+                                                  Numero de Factura
+                                                </option>
+                                                <option value="3">
+                                                  Total de la Factura
+                                                </option>
+                                                <option value="4">
+                                                  Nombre Empresa
+                                                </option>
+                                                <option value="5">
+                                                  Nombre Cliente
+                                                </option>
+                                                <option value="6">
+                                                  Nombre Contacto
+                                                </option>
+                                                <option value="25">
+                                                  Recepciones de Pago
+                                                </option>
+                                              </select>
+                                              <select name="vars_cotizacion_list" id="vars_cotizacion_list" class="
                                                           form-control
                                                           input_gris
                                                           hidden
                                                         ">
-                                                      <option value="" label=" "></option>
-                                                      <option value="7">
-                                                        Numero de Cotizacion
-                                                      </option>
-                                                      <option value="9">
-                                                        Total de Cotizacion
-                                                      </option>
-                                                      <option value="10">
-                                                        Nombre Empresa
-                                                      </option>
-                                                      <option value="11">
-                                                        Nombre Cliente
-                                                      </option>
-                                                      <option value="12">
-                                                        Nombre Contacto
-                                                      </option>
-                                                    </select>
-                                                    <select name="vars_usuario_list" id="vars_usuario_list" class="
+                                                <option value="" label=" "></option>
+                                                <option value="7">
+                                                  Numero de Cotizacion
+                                                </option>
+                                                <option value="9">
+                                                  Total de Cotizacion
+                                                </option>
+                                                <option value="10">
+                                                  Nombre Empresa
+                                                </option>
+                                                <option value="11">
+                                                  Nombre Cliente
+                                                </option>
+                                                <option value="12">
+                                                  Nombre Contacto
+                                                </option>
+                                              </select>
+                                              <select name="vars_usuario_list" id="vars_usuario_list" class="
                                                           form-control
                                                           input_gris
                                                           hidden
                                                         ">
-                                                      <option value="" label=" "></option>
-                                                      <option value="13">
-                                                        Link de Acceso
-                                                      </option>
-                                                      <option value="14">
-                                                        Nombre Empresa
-                                                      </option>
-                                                      <option value="15">
-                                                        Nombre Cliente
-                                                      </option>
-                                                      <option value="16">
-                                                        Nombre Contacto
-                                                      </option>
-                                                      <option value="17">
-                                                        Constraseña
-                                                      </option>
-                                                      <option value="24">
-                                                        Usuario
-                                                      </option>
-                                                    </select>
-                                                    <select name="vars_staff_list" id="vars_staff_list" class="
+                                                <option value="" label=" "></option>
+                                                <option value="13">
+                                                  Link de Acceso
+                                                </option>
+                                                <option value="14">
+                                                  Nombre Empresa
+                                                </option>
+                                                <option value="15">
+                                                  Nombre Cliente
+                                                </option>
+                                                <option value="16">
+                                                  Nombre Contacto
+                                                </option>
+                                                <option value="17">
+                                                  Constraseña
+                                                </option>
+                                                <option value="24">
+                                                  Usuario
+                                                </option>
+                                              </select>
+                                              <select name="vars_staff_list" id="vars_staff_list" class="
                                                           form-control
                                                           input_gris
                                                           hidden
                                                         ">
-                                                      <option value="" label=" "></option>
-                                                      <option value="18">
-                                                        Link de Acceso
-                                                      </option>
-                                                      <option value="19">
-                                                        Nombre Empresa
-                                                      </option>
-                                                      <option value="20">
-                                                        Nombre Usuario Staff
-                                                      </option>
-                                                      <option value="22">
-                                                        Usuario
-                                                      </option>
-                                                      <option value="23">
-                                                        Contraseña
-                                                      </option>
-                                                    </select>
-                                                    <select name="vars_recepcion_list" id="vars_recepcion_list" class="
+                                                <option value="" label=" "></option>
+                                                <option value="18">
+                                                  Link de Acceso
+                                                </option>
+                                                <option value="19">
+                                                  Nombre Empresa
+                                                </option>
+                                                <option value="20">
+                                                  Nombre Usuario Staff
+                                                </option>
+                                                <option value="22">
+                                                  Usuario
+                                                </option>
+                                                <option value="23">
+                                                  Contraseña
+                                                </option>
+                                              </select>
+                                              <select name="vars_recepcion_list" id="vars_recepcion_list" class="
                                                           form-control
                                                           input_gris
                                                           hidden
                                                         ">
-                                                      <option value="" label=" "></option>
-                                                      <option value="26">
-                                                        Nombre Empresa
-                                                      </option>
-                                                      <option value="27">
-                                                        Total de la Recepcion
-                                                      </option>
-                                                      <option value="28">
-                                                        Nombre Cliente
-                                                      </option>
-                                                      <option value="29">
-                                                        Numero de Recepcion
-                                                      </option>
-                                                      <option value="30">
-                                                        CFDI Relacionados
-                                                      </option>
-                                                    </select>
-                                                    <button id="btn-regresar-default" class="
+                                                <option value="" label=" "></option>
+                                                <option value="26">
+                                                  Nombre Empresa
+                                                </option>
+                                                <option value="27">
+                                                  Total de la Recepcion
+                                                </option>
+                                                <option value="28">
+                                                  Nombre Cliente
+                                                </option>
+                                                <option value="29">
+                                                  Numero de Recepcion
+                                                </option>
+                                                <option value="30">
+                                                  CFDI Relacionados
+                                                </option>
+                                              </select>
+                                              <button id="btn-regresar-default" class="
                                                           btn_accion_ter
                                                           no-padding
                                                         " aria-hidden="true">
-                                                      Regresar a
-                                                      predeterminado
-                                                    </button>
-                                                  </div>
-                                                  <div class="col-md-6">
-                                                    <div><br /></div>
-                                                    <button id="btn-inserta-variable" class="btn_accion_ter"
-                                                      aria-hidden="true">
-                                                      Insertar
-                                                    </button>
-                                                  </div>
-                                                </div>
-                                              </div>
+                                                Regresar a
+                                                predeterminado
+                                              </button>
+                                            </div>
+                                            <div class="col-md-6">
+                                              <div><br /></div>
+                                              <button id="btn-inserta-variable" class="btn_accion_ter"
+                                                aria-hidden="true">
+                                                Insertar
+                                              </button>
+                                            </div>
+                                          </div>
+                                        </div>
 
-                                              <!--botones-->
-                                              <div class="control-group">
-                                                <hr />
-                                                <div class="row">
-                                                  <div class="
+                                        <!--botones-->
+                                        <div class="control-group">
+                                          <hr />
+                                          <div class="row">
+                                            <div class="
                                                         col-md-12
                                                         text-right
                                                       ">
-                                                    <button id="btn-guardar-configuracion-correo" class="
+                                              <button id="btn-guardar-configuracion-correo" class="
                                                           btn_accion_prim
                                                           mt-0
                                                         " aria-hidden="true">
-                                                      Guardar
-                                                    </button>
-                                                    <button id="btn-preview-configuracion-correo" class="
+                                                Guardar
+                                              </button>
+                                              <button id="btn-preview-configuracion-correo" class="
                                                           btn_accion_prim
                                                           mt-0
                                                         " aria-hidden="true" data-tipo="">
-                                                      Vista Previa
-                                                    </button>
-                                                    <button class="
+                                                Vista Previa
+                                              </button>
+                                              <button class="
                                                           btn_cancelar_modal
                                                           btn_accion_sec
                                                         " data-dismiss="modal" aria-hidden="true">
-                                                      Cancelar
-                                                    </button>
-                                                  </div>
-                                                </div>
-                                              </div>
+                                                Cancelar
+                                              </button>
                                             </div>
                                           </div>
                                         </div>
                                       </div>
-                                      <div class="modal-footer"></div>
                                     </div>
                                   </div>
                                 </div>
+                                <div class="modal-footer"></div>
+                              </div>
+                            </div>
+                          </div>
 
-                                <!-- Modals -->
-                                <div class="row">
-                                  <div class="col-md-12">
-                                    <!-- Modal -->
-                                    <div id="dd-modal" class="modal fade" tabindex="-1" role="dialog"
-                                      aria-labelledby="myModalLabel" aria-hidden="true">
-                                      <div class="modal-dialog">
-                                        <div class="modal-content">
-                                          <div class="modal-header">
-                                            <button type="button" class="close" data-dismiss="modal">
-                                              <span aria-hidden="true">×</span><span class="sr-only">Close</span>
-                                            </button>
-                                            <h4 class="modal-title" id="myModalLabel"></h4>
-                                          </div>
-                                          <div class="modal-body" style="padding-top: 30px"></div>
-                                          <div class="modal-footer">
-                                            <button type="button" class="btn btn-default" data-dismiss="modal">
-                                              Cerrar
-                                            </button>
-                                          </div>
-                                        </div>
-                                      </div>
+                          <!-- Modals -->
+                          <div class="row">
+                            <div class="col-md-12">
+                              <!-- Modal -->
+                              <div id="dd-modal" class="modal fade" tabindex="-1" role="dialog"
+                                aria-labelledby="myModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                  <div class="modal-content">
+                                    <div class="modal-header">
+                                      <button type="button" class="close" data-dismiss="modal">
+                                        <span aria-hidden="true">×</span><span class="sr-only">Close</span>
+                                      </button>
+                                      <h4 class="modal-title" id="myModalLabel"></h4>
                                     </div>
-
-                                    <!-- Informar -->
-                                    <div id="dd-inform-modal" class="modal fade" tabindex="-1" role="dialog"
-                                      aria-labelledby="myModalLabel" aria-hidden="true">
-                                      <div class="modal-dialog">
-                                        <div class="modal-content">
-                                          <div class="modal-header">
-                                            <button type="button" class="close" data-dismiss="modal">
-                                              <span aria-hidden="true">×</span>
-                                              <span class="sr-only">Close</span>
-                                            </button>
-                                            <h4 class="modal-title" id="myModalLabel"></h4>
-                                          </div>
-                                          <div class="modal-body"></div>
-                                          <div class="modal-footer">
-                                            <button type="button" class="btn btn-default" data-dismiss="modal">
-                                              Cerrar
-                                            </button>
-                                          </div>
-                                        </div>
-                                      </div>
+                                    <div class="modal-body" style="padding-top: 30px"></div>
+                                    <div class="modal-footer">
+                                      <button type="button" class="btn btn-default" data-dismiss="modal">
+                                        Cerrar
+                                      </button>
                                     </div>
+                                  </div>
+                                </div>
+                              </div>
 
-                                    <!-- Modal de Confirmacion -->
-                                    <div id="dd-confirm-modal" class="modal fade" tabindex="-1" role="dialog"
-                                      aria-labelledby="myModalLabel" aria-hidden="true">
-                                      <div class="modal-dialog">
-                                        <div class="modal-content">
-                                          <div class="modal-header">
-                                            <button type="button" class="close" data-dismiss="modal">
-                                              <span aria-hidden="true">×</span><span class="sr-only">Close</span>
-                                            </button>
-                                            <h4 class="modal-title" id="myModalLabel"></h4>
-                                          </div>
-                                          <div class="modal-body-v" style="padding: 15px"></div>
-                                          <div class="modal-footer">
-                                            <button id="btn-confirm" class="btn_accion_prim mt-0" data-dismiss="modal"
-                                              aria-hidden="true">
-                                              Aceptar
-                                            </button>
-                                            <button id="btn-cancel-action" type="button" class="btn_accion_sec no-bgc"
-                                              data-dismiss="modal">
-                                              Cancelar
-                                            </button>
-                                          </div>
-                                        </div>
-                                      </div>
+                              <!-- Informar -->
+                              <div id="dd-inform-modal" class="modal fade" tabindex="-1" role="dialog"
+                                aria-labelledby="myModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                  <div class="modal-content">
+                                    <div class="modal-header">
+                                      <button type="button" class="close" data-dismiss="modal">
+                                        <span aria-hidden="true">×</span>
+                                        <span class="sr-only">Close</span>
+                                      </button>
+                                      <h4 class="modal-title" id="myModalLabel"></h4>
                                     </div>
+                                    <div class="modal-body"></div>
+                                    <div class="modal-footer">
+                                      <button type="button" class="btn btn-default" data-dismiss="modal">
+                                        Cerrar
+                                      </button>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
 
-                                    <!-- Modal de "Cargando" -->
-                                    <div id="dd-loading-modal" class="modal fade" tabindex="-1" role="dialog"
-                                      aria-labelledby="myModalLabel" aria-hidden="true">
-                                      <div class="modal-dialog">
-                                        <div class="modal-content">
-                                          <div class="modal-header">
-                                            <h3 id="modal-loading-header-label"></h3>
-                                          </div>
-                                          <div class="modal-body">
-                                            <div id="modal-body-text"></div>
-                                            <br />
-                                            <div class="progress">
-                                              <div class="
+                              <!-- Modal de Confirmacion -->
+                              <div id="dd-confirm-modal" class="modal fade" tabindex="-1" role="dialog"
+                                aria-labelledby="myModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                  <div class="modal-content">
+                                    <div class="modal-header">
+                                      <button type="button" class="close" data-dismiss="modal">
+                                        <span aria-hidden="true">×</span><span class="sr-only">Close</span>
+                                      </button>
+                                      <h4 class="modal-title" id="myModalLabel"></h4>
+                                    </div>
+                                    <div class="modal-body-v" style="padding: 15px"></div>
+                                    <div class="modal-footer">
+                                      <button id="btn-confirm" class="btn_accion_prim mt-0" data-dismiss="modal"
+                                        aria-hidden="true">
+                                        Aceptar
+                                      </button>
+                                      <button id="btn-cancel-action" type="button" class="btn_accion_sec no-bgc"
+                                        data-dismiss="modal">
+                                        Cancelar
+                                      </button>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+
+                              <!-- Modal de "Cargando" -->
+                              <div id="dd-loading-modal" class="modal fade" tabindex="-1" role="dialog"
+                                aria-labelledby="myModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                  <div class="modal-content">
+                                    <div class="modal-header">
+                                      <h3 id="modal-loading-header-label"></h3>
+                                    </div>
+                                    <div class="modal-body">
+                                      <div id="modal-body-text"></div>
+                                      <br />
+                                      <div class="progress">
+                                        <div class="
                                                     progress-bar
                                                     progress-bar-info
                                                     progress-bar-striped
                                                     active
                                                   " role="progressbar" aria-valuenow="100" aria-valuemin="0"
-                                                aria-valuemax="100" style="width: 100%"></div>
-                                              <div class="
+                                          aria-valuemax="100" style="width: 100%"></div>
+                                        <div class="
                                                     progress-bar
                                                     progress-bar-danger
                                                     progress-bar-striped
                                                     hidden
                                                   " role="progressbar" aria-valuenow="100" aria-valuemin="0"
-                                                aria-valuemax="100" style="width: 100%"></div>
-                                            </div>
-                                          </div>
-                                          <div class="modal-footer hidden" id="dd-loading-modal-footer">
-                                            <button type="button" id="btn-sugerir-agregar-tarjeta" style="display: none"
-                                              class="btn_accion_sec">
-                                              Agregar Tarjeta
-                                            </button>
-                                            <button type="button" class="btn_accion_ter" data-dismiss="modal">
-                                              Cerrar
-                                            </button>
-                                          </div>
-                                        </div>
+                                          aria-valuemax="100" style="width: 100%"></div>
                                       </div>
+                                    </div>
+                                    <div class="modal-footer hidden" id="dd-loading-modal-footer">
+                                      <button type="button" id="btn-sugerir-agregar-tarjeta" style="display: none"
+                                        class="btn_accion_sec">
+                                        Agregar Tarjeta
+                                      </button>
+                                      <button type="button" class="btn_accion_ter" data-dismiss="modal">
+                                        Cerrar
+                                      </button>
                                     </div>
                                   </div>
                                 </div>
                               </div>
                             </div>
                           </div>
-                          <script type="text/javascript">
-                            $(function () {
-                              empresas_correos_index();
-                            });
-                          </script>
                         </div>
                       </div>
                     </div>
+                    <script type="text/javascript">
+                      $(function () {
+                        empresas_correos_index();
+                      });
+                    </script>
                   </div>
-                  <!--LOGO-->
-                  <div id="Logo" class="tabcontent">
-                    <div class="container-fluid">
-                      <div class="row">
-                        <div class="col-md-12">
-                          <p style="
+                </div>
+              </div>
+            </div>
+            <!--LOGO-->
+            <div id="Logo" class="tabcontent">
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="col-md-12">
+                    <p style="
                                 font-size: 16px;
                                 font-weight: bold;
                                 color: #444851;
                               ">
-                            LOGO
-                          </p>
-                          <p>Aquí puedes subir la imagen del logo de tu empresa, y la imagen del RFC en caso de que
-                            utilices la factura tradicional</p>
-                          <br />
-                          <p style="font-weight: bold; color: #444851; margin-top: 1rem;">Logo de tu empresa</p>
-                          <!--LOGO EMPRESA-->
-                          <form>
-                            <div class="logoEmpresaContainer">
-                              <div class="logoEmpresaImage">
-                                <img id="logoEmpresaOutput"
-                                  src="./Facturación en Línea _ docDigitales_files/EmpresaLogo20110318.bmp"
-                                  class="img-logo" />
-                                <button id="btn-eliminar-img-logo" class="btn_accion_ter">
-                                  Eliminar
-                                </button>
-                              </div>
-                              <div class="logoEmpresaDer">
-                                <p>Las imágenes se ajustan automáticamente a 200 x 200 px.</p>
-                                <p>Formatos recomendados: JPG, JPEG, PNG, GIF, BMP.</p>
-                                <label class="logoEmpresaDerButton">
-                                  Subir imagen
-                                  <input name="logoEmpresa" type="file"
-                                    accept="image/png, image/gif, image/jpeg, image/jpg, image/bmp"
-                                    style="display: none"
-                                    onchange="document.getElementById('logoEmpresaOutput').src = window.URL.createObjectURL(this.files[0])" />
-                                </label>
-                              </div>
-                            </div>
-                          </form>
-                          <p style="font-weight: bold; color: #444851; margin-top: 1rem;">RFC para factura tradicional
-                          </p>
-                          <!--RFC FACTURA TRADICIONAL-->
-                          <form>
-                            <div class="logoEmpresaContainer">
-                              <div class="logoEmpresaFactura">
-                                <img id="FacturaImgOutput"
-                                  src="./Facturación en Línea _ docDigitales_files/EmpresaLogo20110318.bmp"
-                                  class="img-logo" />
-                              </div>
-                              <div class="logoEmpresaDer">
-                                <p>Las imágenes se ajustan automáticamente a 300 x 200 px.</p>
-                                <p>Formatos recomendados: JPG, JPEG, PNG, GIF, BMP.</p>
-                                <label class="logoEmpresaDerButton">
-                                  Subir imagen
-                                  <input name="FacturaImg" type="file"
-                                    accept="image/png, image/gif, image/jpeg, image/jpg, image/bmp"
-                                    style="display: none"
-                                    onchange="document.getElementById('FacturaImgOutput').src = window.URL.createObjectURL(this.files[0])" />
-                                </label>
-                              </div>
-                            </div>
-                          </form>
-                          <!-- Template de la tabla Series para agregar un nuevo row. -->
-                          <script id="tmpl_serie_row" type="text/x-handlebars-template">
-                            <tr>
+                      LOGO
+                    </p>
+                    <p>Aquí puedes subir la imagen del logo de tu empresa, y la imagen del RFC en caso de que
+                      utilices la factura tradicional</p>
+                    <br />
+                    <p style="font-weight: bold; color: #444851; margin-top: 1rem;">Logo de tu empresa</p>
+                    <!--LOGO EMPRESA-->
+                    <form>
+                      <div class="logoEmpresaContainer">
+                        <div class="logoEmpresaImage">
+                          <img id="logoEmpresaOutput"
+                            src="./Facturación en Línea _ docDigitales_files/EmpresaLogo20110318.bmp"
+                            class="img-logo" />
+                          <button id="btn-eliminar-img-logo" class="btn_accion_ter">
+                            Eliminar
+                          </button>
+                        </div>
+                        <div class="logoEmpresaDer">
+                          <p>Las imágenes se ajustan automáticamente a 200 x 200 px.</p>
+                          <p>Formatos recomendados: JPG, JPEG, PNG, GIF, BMP.</p>
+                          <label class="logoEmpresaDerButton">
+                            Subir imagen
+                            <input name="logoEmpresa" type="file"
+                              accept="image/png, image/gif, image/jpeg, image/jpg, image/bmp" style="display: none"
+                              onchange="document.getElementById('logoEmpresaOutput').src = window.URL.createObjectURL(this.files[0])" />
+                          </label>
+                        </div>
+                      </div>
+                    </form>
+                    <p style="font-weight: bold; color: #444851; margin-top: 1rem;">RFC para factura tradicional
+                    </p>
+                    <!--RFC FACTURA TRADICIONAL-->
+                    <form>
+                      <div class="logoEmpresaContainer">
+                        <div class="logoEmpresaFactura">
+                          <img id="FacturaImgOutput"
+                            src="./Facturación en Línea _ docDigitales_files/EmpresaLogo20110318.bmp"
+                            class="img-logo" />
+                        </div>
+                        <div class="logoEmpresaDer">
+                          <p>Las imágenes se ajustan automáticamente a 300 x 200 px.</p>
+                          <p>Formatos recomendados: JPG, JPEG, PNG, GIF, BMP.</p>
+                          <label class="logoEmpresaDerButton">
+                            Subir imagen
+                            <input name="FacturaImg" type="file"
+                              accept="image/png, image/gif, image/jpeg, image/jpg, image/bmp" style="display: none"
+                              onchange="document.getElementById('FacturaImgOutput').src = window.URL.createObjectURL(this.files[0])" />
+                          </label>
+                        </div>
+                      </div>
+                    </form>
+                    <!-- Template de la tabla Series para agregar un nuevo row. -->
+                    <script id="tmpl_serie_row" type="text/x-handlebars-template">
+                      <tr>
                                 <td>{{serie}}</td>
                                 <td>{{folio}}</td>
                                 <td><button
@@ -15552,437 +15501,430 @@
                                   >Eliminar</button></td>
                               </tr>
                             </script>
-                        </div>
-                      </div>
-                    </div>
                   </div>
-                  <!--PAGOS EN LINEA-->
-                  <div id="PagosEnLinea" class="tabcontent">
-                    <!--WITHOUT KEY-->
-                    <div id="withoutKey">
-                    <div class="container-fluid">
-                      <p style="
+                </div>
+              </div>
+            </div>
+            <!--PAGOS EN LINEA-->
+            <div id="PagosEnLinea" class="tabcontent">
+              <!--WITHOUT KEY-->
+              <div id="withoutKey">
+                <div class="container-fluid">
+                  <p style="
                             font-size: 16px;
                             font-weight: bold;
                             color: #444851;
                           ">
-                        PAGOS EN LÍNEA
-                      </p>
-                      <p>
-                        Para habilitar la opcion de recibir pagos en linea,
-                        solo necesitas crear tu cuenta en Conekta, copiar las
-                        llaves que te facilitaran, y regresar aqui para pegar
-                        las llaves y conectar tu servicio.
-                      </p>
-                      <div class="stepsContainer">
-                        <div class="stepsContent">
-                          <div class="steps-Icon">
-                            <img src="./Facturación en Línea _ docDigitales_files/conektaLogoShort.png">
-                          </div>
-                          <div class="steps-Text">
-                            <p style="
-                                  font-size: 14px;
-                                  font-weight: bold;
-                                  color: #444851;
-                                ">
-                              Paso #1
-                            </p>
-                            <p>
-                              Da click en Crea tu cuenta, registrate y crea tu
-                              negocio en Conekta.
-                            </p>
-                          </div>
-                        </div>
-                        <div class="stepsContent">
-                          <div class="steps-Icon">
-                            <i class="bi bi-code" style="color:#444851; font-size: 3rem;"></i>
-                          </div>
-                          <div class="steps-Text">
-                            <p style="
-                                  font-size: 14px;
-                                  font-weight: bold;
-                                  color: #444851;
-                                ">
-                              Paso #2
-                            </p>
-                            <p />
-                            <p>Copias las llaves API que te da Conekta</p>
-                          </div>
-                        </div>
-                        <div class="stepsContent">
-                          <div class="steps-Icon">
-                            <i class="bi bi-arrow-clockwise" style="color:#444851; font-size: 3rem;"></i>
-                          </div>
-                          <div class="steps-Text">
-                            <p style="
-                                  font-size: 14px;
-                                  font-weight: bold;
-                                  color: #444851;
-                                ">
-                              Paso #3
-                            </p>
-                            <p>
-                              Regresa a esta pagina, pega las llaves y da
-                              click en Conectar
-                            </p>
-                          </div>
-                        </div>
+                    PAGOS EN LÍNEA
+                  </p>
+                  <p>
+                    Para habilitar la opcion de recibir pagos en linea,
+                    solo necesitas crear tu cuenta en Conekta, copiar las
+                    llaves que te facilitaran, y regresar aqui para pegar
+                    las llaves y conectar tu servicio.
+                  </p>
+                  <div class="stepsContainer">
+                    <div class="stepsContent">
+                      <div class="steps-Icon">
+                        <img src="./Facturación en Línea _ docDigitales_files/conektaLogoShort.png">
                       </div>
-                      <div class="toConekta">
-                        <img src="./Facturación en Línea _ docDigitales_files/conektaLogo.png" />
-                        <a href="https://conekta.com/" target="_blank" class="buttonToConekta">Crea tu cuenta
-                          <i class="bi bi-box-arrow-up-right" style="color: #fff; margin-left:1rem;"></i>
-                        </a>
-                      </div>
-                      <button class="accordion">
-                        <div class="accordion-left">
-                          <i class="bi bi-list-ul" style="color: #444851; margin-right:1rem; font-size: 2rem;"></i>Guía
-                          paso a paso
-                        </div>
-                        <div class="accordion-right">
-                          <i class="bi bi-chevron-down" style="color: #444851; font-size: 2rem; right: 2rem"></i>
-                        </div>
-                      </button>
-                      <div class="panel">
-                        <p style="font-weight: bold; color: #444851">
-                          PASO #1
-                        </p>
-                        <p>
-                          Abre una nueva ventana en tu navegador y entra a
-                          <a href="https://conekta.com/" target="_blank">conekta.com</a>
-                        </p>
-                        <img src="./Facturación en Línea _ docDigitales_files/Pasos Conekta/Paso1.png" />
-                        <p style="font-weight: bold; color: #444851">
-                          PASO #2
-                        </p>
-                        <p>Da click en “Regístrate” y crea tu cuenta</p>
-                        <img src="./Facturación en Línea _ docDigitales_files/Pasos Conekta/Paso2.png" />
-                        <p style="font-weight: bold; color: #444851">
-                          PASO #3
-                        </p>
-                        <p>Haz click en “Ir al Dashboard”</p>
-                        <img src="./Facturación en Línea _ docDigitales_files/Pasos Conekta/Paso3.png" />
-                        <p style="font-weight: bold; color: #444851">
-                          PASO #4
-                        </p>
-                        <p>Dirígete al menú de “My Company”</p>
-                        <img src="./Facturación en Línea _ docDigitales_files/Pasos Conekta/Paso4.png" />
-                        <p style="font-weight: bold; color: #444851">
-                          PASO #5
-                        </p>
-                        <p>Haz click en la 2da opción del menú “API Keys”</p>
-                        <img src="./Facturación en Línea _ docDigitales_files/Pasos Conekta/Paso5.png" />
-                        <p style="font-weight: bold; color: #444851">
-                          PASO #6
-                        </p>
-                        <p>Haz click en “Ver API Keys de producción”</p>
-                        <img src="./Facturación en Línea _ docDigitales_files/Pasos Conekta/Paso6.png" />
-                        <p style="font-weight: bold; color: #444851">
-                          PASO #7
-                        </p>
-                        <p>
-                          Copia primero la llave pública, regresa a
-                          DocDigitales y pégala en el campo de Llave pública,
-                          en la parte de abajo de ésta página, y repite el
-                          proceso para la llave privada. Una vez que hayas
-                          copiado las 2 llaves y se hayan validado
-                          correctamente, haz click en “Conectar” para iniciar
-                          el proceso. Y listo, ya estás preparado para recibir
-                          pagos en línea!
-                        </p>
-                        <img src="./Facturación en Línea _ docDigitales_files/Pasos Conekta/Paso7.png" />
-                      </div>
-                      <div class="apiContainer">
+                      <div class="steps-Text">
                         <p style="
+                                  font-size: 14px;
+                                  font-weight: bold;
+                                  color: #444851;
+                                ">
+                          Paso #1
+                        </p>
+                        <p>
+                          Da click en Crea tu cuenta, registrate y crea tu
+                          negocio en Conekta.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="stepsContent">
+                      <div class="steps-Icon">
+                        <i class="bi bi-code" style="color:#444851; font-size: 3rem;"></i>
+                      </div>
+                      <div class="steps-Text">
+                        <p style="
+                                  font-size: 14px;
+                                  font-weight: bold;
+                                  color: #444851;
+                                ">
+                          Paso #2
+                        </p>
+                        <p />
+                        <p>Copias las llaves API que te da Conekta</p>
+                      </div>
+                    </div>
+                    <div class="stepsContent">
+                      <div class="steps-Icon">
+                        <i class="bi bi-arrow-clockwise" style="color:#444851; font-size: 3rem;"></i>
+                      </div>
+                      <div class="steps-Text">
+                        <p style="
+                                  font-size: 14px;
+                                  font-weight: bold;
+                                  color: #444851;
+                                ">
+                          Paso #3
+                        </p>
+                        <p>
+                          Regresa a esta pagina, pega las llaves y da
+                          click en Conectar
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="toConekta">
+                    <img src="./Facturación en Línea _ docDigitales_files/conektaLogo.png" />
+                    <a href="https://conekta.com/" target="_blank" class="buttonToConekta">Crea tu cuenta
+                      <i class="bi bi-box-arrow-up-right" style="color: #fff; margin-left:1rem;"></i>
+                    </a>
+                  </div>
+                  <button class="accordion">
+                    <div class="accordion-left">
+                      <i class="bi bi-list-ul" style="color: #444851; margin-right:1rem; font-size: 2rem;"></i>Guía
+                      paso a paso
+                    </div>
+                    <div class="accordion-right">
+                      <i class="bi bi-chevron-down" style="color: #444851; font-size: 2rem; right: 2rem"></i>
+                    </div>
+                  </button>
+                  <div class="panel">
+                    <p style="font-weight: bold; color: #444851">
+                      PASO #1
+                    </p>
+                    <p>
+                      Abre una nueva ventana en tu navegador y entra a
+                      <a href="https://conekta.com/" target="_blank">conekta.com</a>
+                    </p>
+                    <img src="./Facturación en Línea _ docDigitales_files/Pasos Conekta/Paso1.png" />
+                    <p style="font-weight: bold; color: #444851">
+                      PASO #2
+                    </p>
+                    <p>Da click en “Regístrate” y crea tu cuenta</p>
+                    <img src="./Facturación en Línea _ docDigitales_files/Pasos Conekta/Paso2.png" />
+                    <p style="font-weight: bold; color: #444851">
+                      PASO #3
+                    </p>
+                    <p>Haz click en “Ir al Dashboard”</p>
+                    <img src="./Facturación en Línea _ docDigitales_files/Pasos Conekta/Paso3.png" />
+                    <p style="font-weight: bold; color: #444851">
+                      PASO #4
+                    </p>
+                    <p>Dirígete al menú de “My Company”</p>
+                    <img src="./Facturación en Línea _ docDigitales_files/Pasos Conekta/Paso4.png" />
+                    <p style="font-weight: bold; color: #444851">
+                      PASO #5
+                    </p>
+                    <p>Haz click en la 2da opción del menú “API Keys”</p>
+                    <img src="./Facturación en Línea _ docDigitales_files/Pasos Conekta/Paso5.png" />
+                    <p style="font-weight: bold; color: #444851">
+                      PASO #6
+                    </p>
+                    <p>Haz click en “Ver API Keys de producción”</p>
+                    <img src="./Facturación en Línea _ docDigitales_files/Pasos Conekta/Paso6.png" />
+                    <p style="font-weight: bold; color: #444851">
+                      PASO #7
+                    </p>
+                    <p>
+                      Copia primero la llave pública, regresa a
+                      DocDigitales y pégala en el campo de Llave pública,
+                      en la parte de abajo de ésta página, y repite el
+                      proceso para la llave privada. Una vez que hayas
+                      copiado las 2 llaves y se hayan validado
+                      correctamente, haz click en “Conectar” para iniciar
+                      el proceso. Y listo, ya estás preparado para recibir
+                      pagos en línea!
+                    </p>
+                    <img src="./Facturación en Línea _ docDigitales_files/Pasos Conekta/Paso7.png" />
+                  </div>
+                  <div class="apiContainer">
+                    <p style="
                               font-size: 16px;
                               font-weight: bold;
                               color: #444851;
                             ">
-                          ¿Yá tienes tus llaves API?
-                        </p>
+                      ¿Yá tienes tus llaves API?
+                    </p>
+                    <p>
+                      Pega las llaves en el siguiente campo de texto, y da
+                      click en “Conectar”, espera unos minutos, y confirma
+                      que el proceso haya concluido con exito.
+                    </p>
+                    <form>
+                      <p style="
+                              font-size: 14px;
+                              font-weight: bold;
+                              color: #444851;
+                            ">
+                        Llave Pública
+                      </p>
+                      <div class="KeyInput">
+                        <div class="KeyIcon">
+                          <i class="bi bi-key-fill" style="font-size: 2rem; color: #a6adbb; padding: 0 0.5rem;"></i>
+                        </div>
+                        <input required class="form-control input-xlarge InputValid" type="text" name="llave_publica"
+                          id="llave_publica" style="height: 45px" placeholder="Inserta aquí tu llave Pública..." />
+                      </div>
+                      <p style="
+                              font-size: 14px;
+                              font-weight: bold;
+                              color: #444851;
+                            ">
+                        Llave Privada
+                      </p>
+                      <div class="KeyInput">
+                        <div class="KeyIcon">
+                          <i class="bi bi-key-fill" style="font-size: 2rem; color: #a6adbb; padding: 0 0.5rem;"></i>
+                        </div>
+                        <input required class="form-control input-xlarge InputValid" type="text" name="llave_privada"
+                          id="llave_privada" style="height: 45px" placeholder="Inserta aquí tu llave Privada..." />
+                      </div>
+                      <div class="bottomKeyContainer">
                         <p>
-                          Pega las llaves en el siguiente campo de texto, y da
-                          click en “Conectar”, espera unos minutos, y confirma
-                          que el proceso haya concluido con exito.
+                          ¿Tienes algún problema?
+                          <a href="https://www.docdigitales.com/soporte" target="_blank">Contáctanos</a>
                         </p>
-                        <form>
-                          <p style="
-                              font-size: 14px;
-                              font-weight: bold;
-                              color: #444851;
-                            ">
-                            Llave Pública
-                          </p>
-                          <div class="KeyInput">
-                            <div class="KeyIcon">
-                              <i class="bi bi-key-fill" style="font-size: 2rem; color: #a6adbb; padding: 0 0.5rem;"></i>
-                            </div>
-                            <input required class="form-control input-xlarge InputValid" type="text" name="llave_publica" id="llave_publica"
-                              style="height: 45px" placeholder="Inserta aquí tu llave Pública..." />
-                          </div>
-                          <p style="
-                              font-size: 14px;
-                              font-weight: bold;
-                              color: #444851;
-                            ">
-                            Llave Privada
-                          </p>
-                          <div class="KeyInput">
-                            <div class="KeyIcon">
-                              <i class="bi bi-key-fill" style="font-size: 2rem; color: #a6adbb; padding: 0 0.5rem;"></i>
-                            </div>
-                            <input required class="form-control input-xlarge InputValid" type="text" name="llave_privada" id="llave_privada"
-                              style="height: 45px" placeholder="Inserta aquí tu llave Privada..." />
-                          </div>
-                          <div class="bottomKeyContainer">
-                            <p>
-                              ¿Tienes algún problema?
-                              <a href="https://www.docdigitales.com/soporte" target="_blank">Contáctanos</a>
-                            </p>
-                            <button type="submit" onclick="toLoader()">Conectar</button>
-                          </div>
-                        </form>
+                        <button type="submit" onclick="toLoader()">Conectar</button>
                       </div>
-                    </div>
+                    </form>
                   </div>
-                  <!--LOADER-->
-                  <div id="keyLoader" class="hiddenOP">
-                    <div class="container-fluid">
-                      <p style="
+                </div>
+              </div>
+              <!--LOADER-->
+              <div id="keyLoader" class="hiddenOP">
+                <div class="container-fluid">
+                  <p style="
                             font-size: 16px;
                             font-weight: bold;
                             color: #444851;
                             margin-bottom: 6rem;
                           ">
-                        PAGOS EN LÍNEA
-                      </p>
-                      <div class="row text-center alreadyKey">
-                        <p style="font-size: 16px; font-weight: 500; color: #045d7c; margin-bottom: 2rem;">
-                          Esto podría tomar algunos minutos. Por favor espera un momento estamos procesando tu información 
-                        </p>
-                        <div id="loadingProgressG">
-                          <div id="loadingProgressG_1" class="loadingProgressG"></div>
-                        </div>
-                        <button>Cancelar</button>
-                      </div>
+                    PAGOS EN LÍNEA
+                  </p>
+                  <div class="row text-center alreadyKey">
+                    <p style="font-size: 16px; font-weight: 500; color: #045d7c; margin-bottom: 2rem;">
+                      Esto podría tomar algunos minutos. Por favor espera un momento estamos procesando tu información
+                    </p>
+                    <div id="loadingProgressG">
+                      <div id="loadingProgressG_1" class="loadingProgressG"></div>
                     </div>
+                    <button>Cancelar</button>
                   </div>
-                  <!--ALREADY-->
-                  <div id="already" style="float: left;" class="hiddenOP">
-                    <div class="container-fluid">
-                      <p style="
+                </div>
+              </div>
+              <!--ALREADY-->
+              <div id="already" style="float: left;" class="hiddenOP">
+                <div class="container-fluid">
+                  <p style="
                             font-size: 16px;
                             font-weight: bold;
                             color: #444851;
                             margin-bottom: 6rem;
                           ">
-                        PAGOS EN LÍNEA
-                      </p>
-                      <div class="row text-center alreadyKey">
-                      <i class="bi bi-clipboard-check" style="font-size:4rem; color: #44bd94; margin-bottom: 1rem;"></i>
-                      <p style="font-size: 16px; font-weight: 500; color: #045d7c;">
-                        ¡Todo listo! La conección del servicio para recibir pagos en línea con Conekta se realizo correctamente.
-                      </p>
-                        <button onclick="done()">Terminar</button>
-                      </div>
-                    </div>
+                    PAGOS EN LÍNEA
+                  </p>
+                  <div class="row text-center alreadyKey">
+                    <i class="bi bi-clipboard-check" style="font-size:4rem; color: #44bd94; margin-bottom: 1rem;"></i>
+                    <p style="font-size: 16px; font-weight: 500; color: #045d7c;">
+                      ¡Todo listo! La conección del servicio para recibir pagos en línea con Conekta se realizo
+                      correctamente.
+                    </p>
+                    <button onclick="done()">Terminar</button>
                   </div>
-                  <!--KEY-->
-                  <div id="key" class="hiddenOP">
-                    <div class="container-fluid">
-                      <p style="
+                </div>
+              </div>
+              <!--KEY-->
+              <div id="key" class="hiddenOP">
+                <div class="container-fluid">
+                  <p style="
                             font-size: 16px;
                             font-weight: bold;
                             color: #444851;
                             margin-bottom: 6rem;
                           ">
-                        PAGOS EN LÍNEA
-                      </p>
-                      <p>
-                        Actualmente estás utilizando el servicio de pagos en línea a través de Conekta.
-                        Si deseas desactivar la opción para recibir pagos en línea, solo da click en Desactivar.
-                      </p>
-                      <div class="toogleContainer">
-                        <p style="margin:0;">Desactivar recepción de pagos en línea</p>
-                        <div class="toogleItem">
-                          <p>Activado</p>
-                          <label class="form-switch">
-                            <input type="checkbox">
-                            <i></i>
-                          </label>
-                        </div>
-                      </div>
-                      <br/>
-                      <p style="
+                    PAGOS EN LÍNEA
+                  </p>
+                  <p>
+                    Actualmente estás utilizando el servicio de pagos en línea a través de Conekta.
+                    Si deseas desactivar la opción para recibir pagos en línea, solo da click en Desactivar.
+                  </p>
+                  <div class="toogleContainer">
+                    <p style="margin:0;">Desactivar recepción de pagos en línea</p>
+                    <div class="toogleItem">
+                      <p>Activado</p>
+                      <label class="form-switch">
+                        <input type="checkbox">
+                        <i></i>
+                      </label>
+                    </div>
+                  </div>
+                  <br />
+                  <p style="
                             font-weight: 500;
                             color: #444851;
                             margin-bottom: 2rem;
                           ">
-                        Llaves API
-                      </p>
-                      <div class="toogleContainer" style="margin-top:1rem;">
-                        <p style="margin:0;">Eliminar integración con Conekta</p>
-                        <div class="toogleItem2">
-                          <i class="bi bi-trash" style="font-size:2rem; color: #444851; margin-right: 1rem;"></i>
-                          <button onclick="done()">Eliminar</button>
-                        </div>
-                      </div>
+                    Llaves API
+                  </p>
+                  <div class="toogleContainer" style="margin-top:1rem;">
+                    <p style="margin:0;">Eliminar integración con Conekta</p>
+                    <div class="toogleItem2">
+                      <i class="bi bi-trash" style="font-size:2rem; color: #444851; margin-right: 1rem;"></i>
+                      <button onclick="done()">Eliminar</button>
                     </div>
                   </div>
-                  </div>
-                  <script>
-                    function toLoader(){
-                      document.getElementById('withoutKey').style.display = 'none';
-                      var timeleft= 5;
-                      var downloadTimer = setInterval(function () {
-                        if(timeleft <= 0){
-                          clearInterval(downloadTimer);
-                          document.getElementById('keyLoader').classList.add("hiddenOP");
-                          document.getElementById('already').classList.remove("hiddenOP");
-                        }
-                        else{
-                          document.getElementById('keyLoader').classList.remove("hiddenOP");
-                        }
-                        timeleft -= 1;
-                      }, 1000);
-                    }
-                  </script>
-                  <script>
-                    function done(){
-                      document.getElementById('already').classList.add("hiddenOP");
-                      document.getElementById('key').classList.remove("hiddenOP");
-                    }                  
-                  </script>
-                  <!--NOTIFICACIONES-->
-                  <div id="Notificaciones" class="tabcontent">
-                    <div class="container-fluid">
-                      <p style="
+                </div>
+              </div>
+            </div>
+            <script>
+              function toLoader() {
+                document.getElementById('withoutKey').style.display = 'none';
+                var timeleft = 5;
+                var downloadTimer = setInterval(function () {
+                  if (timeleft <= 0) {
+                    clearInterval(downloadTimer);
+                    document.getElementById('keyLoader').classList.add("hiddenOP");
+                    document.getElementById('already').classList.remove("hiddenOP");
+                  } else {
+                    document.getElementById('keyLoader').classList.remove("hiddenOP");
+                  }
+                  timeleft -= 1;
+                }, 1000);
+              }
+            </script>
+            <script>
+              function done() {
+                document.getElementById('already').classList.add("hiddenOP");
+                document.getElementById('key').classList.remove("hiddenOP");
+              }
+            </script>
+            <!--NOTIFICACIONES-->
+            <div id="Notificaciones" class="tabcontent">
+              <div class="container-fluid">
+                <p style="
                             font-size: 16px;
                             font-weight: bold;
                             color: #444851;
                           ">
-                        NOTIFICACIONES
-                      </p>
-                      <form>
-                        <ul class="nav nav-list">
-                          <!--RECIBIR CORREOS DE SOLICITUDES DE CANCELACIONES DE FACTURAS-->
-                          <li>
-                            <label class="checkbox">
-                              <input name="empresas_preferencias[enviar_link_directo]" type="hidden" value="0" /><input
-                                type="checkbox" value="1" checked="checked"
-                                name="empresas_preferencias[enviar_link_directo]"
-                                id="empresas_preferencias_enviar_link_directo" />
-                              <span>
-                                <p style="
+                  NOTIFICACIONES
+                </p>
+                <form>
+                  <ul class="nav nav-list">
+                    <!--RECIBIR CORREOS DE SOLICITUDES DE CANCELACIONES DE FACTURAS-->
+                    <li>
+                      <label class="checkbox">
+                        <input name="empresas_preferencias[enviar_link_directo]" type="hidden" value="0" /><input
+                          type="checkbox" value="1" checked="checked" name="empresas_preferencias[enviar_link_directo]"
+                          id="empresas_preferencias_enviar_link_directo" />
+                        <span>
+                          <p style="
                                       font-weight: bold;
                                       color: #444851;
                                       margin-bottom: 0;
                                     ">
-                                  Recibir correos de solicitudes de
-                                  cancelación de facturas
-                                </p>
-                              </span>
-                            </label>
-                          </li>
-                          <!--RECIBIR CORREOS DE ESTADO DE SUSCRIPCIÓN-->
-                          <li>
-                            <label class="checkbox">
-                              <input name="empresas_preferencias[enviar_link_directo]" type="hidden" value="0" /><input
-                                type="checkbox" value="1" checked="checked"
-                                name="empresas_preferencias[enviar_link_directo]"
-                                id="empresas_preferencias_enviar_link_directo" />
-                              <span>
-                                <p style="
+                            Recibir correos de solicitudes de
+                            cancelación de facturas
+                          </p>
+                        </span>
+                      </label>
+                    </li>
+                    <!--RECIBIR CORREOS DE ESTADO DE SUSCRIPCIÓN-->
+                    <li>
+                      <label class="checkbox">
+                        <input name="empresas_preferencias[enviar_link_directo]" type="hidden" value="0" /><input
+                          type="checkbox" value="1" checked="checked" name="empresas_preferencias[enviar_link_directo]"
+                          id="empresas_preferencias_enviar_link_directo" />
+                        <span>
+                          <p style="
                                       font-weight: bold;
                                       color: #444851;
                                       margin-bottom: 0;
                                     ">
-                                  Recibir correos de estado de suscripción
-                                </p>
-                              </span>
-                            </label>
-                          </li>
-                          <!--RECIBIR ACTUALIZACIONES E INFORMACION IMPORTANTE DEL SISTEMA-->
-                          <li>
-                            <label class="checkbox">
-                              <input name="empresas_preferencias[enviar_factura_recurrente]" type="hidden"
-                                value="0" /><input type="checkbox" value="1"
-                                name="empresas_preferencias[enviar_factura_recurrente]"
-                                id="empresas_preferencias_enviar_factura_recurrente" /><span class="text-normal">
-                                <p style="
+                            Recibir correos de estado de suscripción
+                          </p>
+                        </span>
+                      </label>
+                    </li>
+                    <!--RECIBIR ACTUALIZACIONES E INFORMACION IMPORTANTE DEL SISTEMA-->
+                    <li>
+                      <label class="checkbox">
+                        <input name="empresas_preferencias[enviar_factura_recurrente]" type="hidden" value="0" /><input
+                          type="checkbox" value="1" name="empresas_preferencias[enviar_factura_recurrente]"
+                          id="empresas_preferencias_enviar_factura_recurrente" /><span class="text-normal">
+                          <p style="
                                       font-weight: bold;
                                       color: #444851;
                                       margin-bottom: 0;
                                     ">
-                                  Recibir actualizaciones e información importante del sistema
-                                </p>
-                              </span>
-                            </label>
-                          </li>
-                          <!--RECIBIR REPORTE SEMANAL-->
-                          <li>
-                            <label class="checkbox">
-                              <input name="empresas_preferencias[asignar_cliente]" type="hidden" value="0" /><input
-                                type="checkbox" value="1" name="empresas_preferencias[asignar_cliente]"
-                                id="empresas_preferencias_asignar_cliente" /><span class="text-normal">
-                                <p style="
+                            Recibir actualizaciones e información importante del sistema
+                          </p>
+                        </span>
+                      </label>
+                    </li>
+                    <!--RECIBIR REPORTE SEMANAL-->
+                    <li>
+                      <label class="checkbox">
+                        <input name="empresas_preferencias[asignar_cliente]" type="hidden" value="0" /><input
+                          type="checkbox" value="1" name="empresas_preferencias[asignar_cliente]"
+                          id="empresas_preferencias_asignar_cliente" /><span class="text-normal">
+                          <p style="
                                       font-weight: bold;
                                       color: #444851;
                                       margin-bottom: 0;
                                     ">
-                                  Recibir "Reporte semanal de facturas"
-                                </p>
-                                Facturación, gastos, abonos y facturas
-                                recibidas.
-                              </span>
-                            </label>
-                          </li>
-                        </ul>
-                      </form>
-                    </div>
-                  </div>
-                  <script>
-                    var acc = document.getElementsByClassName("accordion");
-                    var i;
-
-                    for (i = 0; i < acc.length; i++) {
-                      acc[i].addEventListener("click", function () {
-                        this.classList.toggle("active");
-                        var panel = this.nextElementSibling;
-                        if (panel.style.display === "block") {
-                          panel.style.display = "none";
-                        } else {
-                          panel.style.display = "block";
-                        }
-                      });
-                    }
-                  </script>
-                  <script>
-                    function openTab(evt, TabName) {
-                      var i, tabcontent, tablinks;
-                      tabcontent =
-                        document.getElementsByClassName("tabcontent");
-                      for (i = 0; i < tabcontent.length; i++) {
-                        tabcontent[i].style.display = "none";
-                      }
-                      tablinks = document.getElementsByClassName("tablinks");
-                      for (i = 0; i < tablinks.length; i++) {
-                        tablinks[i].className = tablinks[i].className.replace(
-                          " active",
-                          ""
-                        );
-                      }
-                      document.getElementById(TabName).style.display =
-                        "block";
-                      evt.currentTarget.className += " active";
-                    }
-
-                    // Get the element with id="defaultOpen" and click on it
-                    document.getElementById("defaultOpen").click();
-                  </script>
-                </div>
+                            Recibir "Reporte semanal de facturas"
+                          </p>
+                          Facturación, gastos, abonos y facturas
+                          recibidas.
+                        </span>
+                      </label>
+                    </li>
+                  </ul>
+                </form>
               </div>
             </div>
+            <script>
+              var acc = document.getElementsByClassName("accordion");
+              var i;
+
+              for (i = 0; i < acc.length; i++) {
+                acc[i].addEventListener("click", function () {
+                  this.classList.toggle("active");
+                  var panel = this.nextElementSibling;
+                  if (panel.style.display === "block") {
+                    panel.style.display = "none";
+                  } else {
+                    panel.style.display = "block";
+                  }
+                });
+              }
+
+              function openTab(evt, TabName) {
+                var i, tabcontent, tablinks;
+                tabcontent =
+                  document.getElementsByClassName("tabcontent");
+                for (i = 0; i < tabcontent.length; i++) {
+                  tabcontent[i].style.display = "none";
+                }
+                tablinks = document.getElementsByClassName("tablinks");
+                for (i = 0; i < tablinks.length; i++) {
+                  tablinks[i].className = tablinks[i].className.replace(
+                    " active",
+                    ""
+                  );
+                }
+                document.getElementById(TabName).style.display =
+                  "block";
+                evt.currentTarget.className += " active";
+              }
+
+              // Get the element with id="defaultOpen" and click on it
+              document.getElementById("defaultOpen").click();
+            </script>
           </div>
         </div>
         <br />
