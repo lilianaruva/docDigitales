@@ -1,5 +1,3 @@
-@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css");
-
 .container-PreferencesNav {
     display: flex;
     flex-direction: column;
@@ -124,11 +122,11 @@ body {
     display: flex;
 }
 
-.labelText{
+.labelText {
     margin-left: 14px;
 }
 
-.labelText button{
+.labelText button {
     color: #1194f6;
     background-color: #fff;
     border: none;
@@ -262,7 +260,8 @@ body {
 .correoItemGroup {
     display: flex;
     justify-content: space-between;
-    margin-left: 1.5rem;
+    width: 594px;
+    margin-bottom: 20px;
 }
 
 .correoItemGroupLeft {
@@ -272,8 +271,41 @@ body {
     flex-wrap: wrap;
 }
 
+.correoItemGroupRight button {
+    color: #088bbd;
+    background-color: transparent;
+    border: none;
+    padding: none;
+    text-decoration: none;
+    display: inline-block;
+    transition: .25s;
+    cursor: pointer;
+}
+
 .correoItemGroupRight {
     align-self: center;
+    width: 98px;
+}
+
+.formBottomEmail {
+    display: flex;
+    flex-direction: column;
+}
+
+.buttonRightEmail {
+    width: 594px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.buttonRightEmail button {
+    width: 90px;
+    height: 30px;
+}
+
+.line {
+    width: 594px;
+    border: 1px dashed rgba(238, 238, 238, 0.99)
 }
 
 .logoEmpresaContainer {
