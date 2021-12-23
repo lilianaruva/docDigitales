@@ -14798,10 +14798,10 @@
             </div>
             <!--CORREO-->
             <div id="Correo" class="tabcontent">
-              <p style="font-size: 16px; font-weight: bold; color: #444851">
+              <p style="font-size: 16px; font-weight: 500; color: #444851; margin-bottom: 13px">
                 CORREO
               </p>
-              <p>
+              <p style="margin-bottom: 24px">
                 Estos son los correos electronicos que envias a tus clientes.
               </p>
               <form id="new_empresas_correos" action="https://sistema.docdigitales.com/admin/empresas/191/correos"
@@ -15701,8 +15701,7 @@
                   timeleft -= 1;
                 }, 1000);
               }
-            </script>
-            <script>
+
               function done() {
                 document.getElementById("already").classList.add("hiddenOP");
                 document.getElementById("key").classList.remove("hiddenOP");
@@ -15710,21 +15709,20 @@
             </script>
             <!--NOTIFICACIONES-->
             <div id="Notificaciones" class="tabcontent">
-              <div class="container-fluid">
                 <p style="font-size: 16px; font-weight: bold; color: #444851">
                   NOTIFICACIONES
                 </p>
                 <form>
-                  <ul class="nav nav-list">
+                  <ul>
                     <!--RECIBIR CORREOS DE SOLICITUDES DE CANCELACIONES DE FACTURAS-->
-                    <li>
-                      <label class="checkbox">
+                    <li style="margin-bottom: 20px;">
+                      <label class="checkNotification">
                         <input name="empresas_preferencias[enviar_link_directo]" type="hidden" value="0" /><input
                           type="checkbox" value="1" checked="checked" name="empresas_preferencias[enviar_link_directo]"
                           id="empresas_preferencias_enviar_link_directo" />
                         <span>
                           <p style="
-                                font-weight: bold;
+                                font-weight: 500;
                                 color: #444851;
                                 margin-bottom: 0;
                               ">
@@ -15735,14 +15733,14 @@
                       </label>
                     </li>
                     <!--RECIBIR CORREOS DE ESTADO DE SUSCRIPCIÓN-->
-                    <li>
-                      <label class="checkbox">
+                    <li style="margin-bottom: 20px;">
+                      <label class="checkNotification">
                         <input name="empresas_preferencias[enviar_link_directo]" type="hidden" value="0" /><input
                           type="checkbox" value="1" checked="checked" name="empresas_preferencias[enviar_link_directo]"
                           id="empresas_preferencias_enviar_link_directo" />
                         <span>
                           <p style="
-                                font-weight: bold;
+                                font-weight: 500;
                                 color: #444851;
                                 margin-bottom: 0;
                               ">
@@ -15752,13 +15750,13 @@
                       </label>
                     </li>
                     <!--RECIBIR ACTUALIZACIONES E INFORMACION IMPORTANTE DEL SISTEMA-->
-                    <li>
-                      <label class="checkbox">
+                    <li style="margin-bottom: 20px;">
+                      <label class="checkNotification">
                         <input name="empresas_preferencias[enviar_factura_recurrente]" type="hidden" value="0" /><input
                           type="checkbox" value="1" name="empresas_preferencias[enviar_factura_recurrente]"
                           id="empresas_preferencias_enviar_factura_recurrente" /><span class="text-normal">
                           <p style="
-                                font-weight: bold;
+                                font-weight: 500;
                                 color: #444851;
                                 margin-bottom: 0;
                               ">
@@ -15769,13 +15767,13 @@
                       </label>
                     </li>
                     <!--RECIBIR REPORTE SEMANAL-->
-                    <li>
-                      <label class="checkbox">
+                    <li style="margin-bottom: 20px;">
+                      <label class="checkNotification labelPreferences" style="align-items: flex-start; padding: 0;">
                         <input name="empresas_preferencias[asignar_cliente]" type="hidden" value="0" /><input
                           type="checkbox" value="1" name="empresas_preferencias[asignar_cliente]"
-                          id="empresas_preferencias_asignar_cliente" /><span class="text-normal">
+                          id="empresas_preferencias_asignar_cliente" style="margin-top: 2px;" /><span class="text-normal">
                           <p style="
-                                font-weight: bold;
+                                font-weight: 500;
                                 color: #444851;
                                 margin-bottom: 0;
                               ">
@@ -15787,7 +15785,6 @@
                     </li>
                   </ul>
                 </form>
-              </div>
             </div>
             <script>
               var acc = document.getElementsByClassName("accordion");

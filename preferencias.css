@@ -645,3 +645,13 @@ body {
 .hiddenOP {
     display: none;
 }
+
+.checkNotification{
+    display: flex;
+    align-items: center;
+}
+
+.checkNotification input{
+    margin-top: 0 !important;
+    margin-right: 12px !important;
+}
